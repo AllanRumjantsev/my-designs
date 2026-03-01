@@ -28,5 +28,5 @@ node_modules/
 /build/
 /coverage/
 
-# Project-specific
-videos/
+# Project-specific (root-only)
+/videos/
