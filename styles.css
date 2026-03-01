@@ -38,7 +38,7 @@ h2 {
     font-weight: 900;
 }
 
-#Hero h1.extra-large {
+#Hero .extra-large {
     font-size: 160px;
 }
 
@@ -63,11 +63,12 @@ h2 {
     line-height: 24px;
 }
 
-#Hero h1.extra-large {
+#Hero .extra-large {
+    display: block;
     text-transform: uppercase;
     line-height: 108px;
     padding-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 .block {
@@ -653,7 +654,7 @@ main .sub-tab .no-button {
         font-size: 28px;
     }
 
-    #Hero h1.extra-large {
+    #Hero .extra-large {
         line-height: 40px;
         font-size: 59px;
     }
@@ -721,11 +722,11 @@ main .sub-tab .no-button {
         font-size: 32px;
     }
 
-    #Hero h1.extra-large {
+    #Hero .extra-large {
         line-height: 46px;
         font-size: 68px;
         padding-bottom: 4px;
-        margin-top: 20px;
+        margin-top: 12px;
     }
 
     .carousel-item {
@@ -785,11 +786,11 @@ main .sub-tab .no-button {
 
 @media (min-width: 576px) {
 
-    #Hero h1.extra-large {
+    #Hero .extra-large {
         line-height: 55px;
         font-size: 80px;
         padding-bottom: 4px;
-        margin-top: 20px;
+        margin-top: 12px;
     }
 
     header:before {
@@ -815,11 +816,11 @@ main .sub-tab .no-button {
 
 @media (min-width: 768px) {
 
-    #Hero h1.extra-large {
+    #Hero .extra-large {
         line-height: 68px;
         font-size: 100px;
         padding-bottom: 6px;
-        margin-top: 20px;
+        margin-top: 12px;
     }
 
     #WORKS #videos .grid {
@@ -873,11 +874,11 @@ main .sub-tab .no-button {
 
 @media (min-width: 992px) {
 
-    #Hero h1.extra-large {
+    #Hero .extra-large {
         line-height: 80px;
         font-size: 120px;
         padding-bottom: 8px;
-        margin-top: 20px;
+        margin-top: 14px;
     }
 
     #WORKS #web .grid {
@@ -904,11 +905,11 @@ main .sub-tab .no-button {
 
 @media (min-width: 1200px) {
 
-    #Hero h1.extra-large {
+    #Hero .extra-large {
         line-height: 108px;
         font-size: 160px;
         padding-bottom: 10px;
-        margin-top: 20px;
+        margin-top: 14px;
     }
 
     #STATS .grid {
