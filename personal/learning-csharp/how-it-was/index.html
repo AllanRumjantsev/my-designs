@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>How I Started Learning C&#35; in Unity | mydesigns.info</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://mydesigns.info/styles.css">
+
+    <!-- this page css -->
+    <link rel="stylesheet" type="text/css" href="../../personal_styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>How I Started Learning C# in Unity</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>Starting from around mid-2021, when I realized that there won't be proper Visual Scripting in Unity, I decided to start learning C# for Unity. The process was slow, because a lot of time and energy went into my main job.</p>
+            <p>In the summer of 2022, I decided to create something more meaningful, perhaps even a game, or at least one well-designed game level. I took an old concept as a place to start that my colleague and I had once wanted to implement but left at the stage of abstractly outlined ideas.</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload" data-srcset="images/1_1200w.jpg 1200w, images/1_600w.jpg 600w" data-sizes="auto" alt="An old concept" src="images/1_1200w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>The concept revolved around a spherical character collecting gems (game currency), pearls (which provided different stats), and orbs (which granted abilities). Copies of orbs could be crafted into more powerful ones with higher levels of abilities and randomly generated additional stats.</p>
+            <p>The plan included implementing specific skills and determining how the gameplay would evolve based on the acquired skills (although not everything was properly documented at that time). The skills were supposed to be granted by orbs that needed to be found or possibly purchased. A certain number of orbs could be activated at once, so it was necessary to determine which orbs to use based on the situation. The number of orb slots would increase as the game progressed.</p>
+            <p>Overall, the concept lacked originality but was sufficient for my C# practice in Unity.</p>
+        </section>
+        <section>
+            <span>step 1</span>
+            <h2>The &laquo;spherical character&raquo;</h2>
+            <p>The first step was developing the "spherical character." This involved designing the character itself and its potential animations, followed by transferring them to Unity. Programs such as Photoshop, Substance 3D Painter, and, most importantly, Cinema 4D were used.</p>
+            <p>Here is how it looked in Cinema 4D:</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-1200">
+                <img class="lazyload" data-srcset="images/2_1600w.jpg 1600w, images/2_1200w.jpg 1200w, images/2_600w.jpg 600w" data-sizes="auto" alt="The look in Cinema 4D" src="images/2_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>And now in Substance 3D Painter:</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-1200">
+                <img class="lazyload" data-srcset="images/3_1600w.jpg 1600w, images/3_1200w.jpg 1200w, images/3_600w.jpg 600w" data-sizes="auto" alt="The look in Substance 3D Painter" src="images/3_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>And there are its animations in Cinema 4D (some require adjusting in Unity at this point):</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <div class="grid-2-20 margin-bottom-20">
+                    <img class="lazyload" data-srcset="images/animations/idle_800w.gif 800w, images/animations/idle_400w.gif 400w" data-sizes="auto" alt="Idle animation" src="images/animations/idle_800w.gif" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                    <img class="lazyload" data-srcset="images/animations/walk_800w.gif 800w, images/animations/walk_400w.gif 400w" data-sizes="auto" alt="Walk animation" src="images/animations/walk_800w.gif" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                </div>
+                <div class="grid-2-20 margin-bottom-20">
+                    <img class="lazyload" data-srcset="images/animations/run_800w.gif 800w, images/animations/run_400w.gif 400w" data-sizes="auto" alt="Run animation" src="images/animations/run_800w.gif" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                    <img class="lazyload" data-srcset="images/animations/jump_800w.gif 800w, images/animations/jump_400w.gif 400w" data-sizes="auto" alt="Jump animation" src="images/animations/jump_800w.gif" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                </div>
+                <img class="lazyload max-width-400-gap" data-srcset="images/animations/double_jump_800w.gif 800w, images/animations/double_jump_400w.gif 400w" data-sizes="auto" alt="Double jump animation" src="images/animations/double_jump_800w.gif" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+        </section>
+        <section>
+            <span>step 2</span>
+            <h2>The controls</h2>
+            <p>When the character was more or less ready, I transferred it to Unity and started implementing its controls. The process was long and challenging since everything was done for the first time using C#.</p>
+            <p>Initially, I created a massive script resembling a skyscraper for the controls. However, later on, I learned from Jason Weimann, a Unity guru, that it is more efficient and practical to separate your code and have each script perform a single task. Taking his advice, I implemented the changes, and it turned out to be a great idea.</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/Player_controls_poster.jpg">
+                    <source src="videos/Player_controls.webm" type="video/webm">
+                    <source src="videos/Player_controls.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+        </section>
+        <section>
+            <span>step 3</span>
+            <h2>Various elements to interact with</h2>
+            <p>Next, I began brainstorming various elements (with which the player could interact) for the potential future game.</p>
+            <p>I came up with a few: a climbing wall,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/climbing_poster.jpg">
+                    <source src="videos/climbing.webm" type="video/webm">
+                    <source src="videos/climbing.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...a lift,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/lift_poster.jpg">
+                    <source src="videos/lift.webm" type="video/webm">
+                    <source src="videos/lift.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...a magnet and an anti-magnet,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/magnets_poster.jpg">
+                    <source src="videos/magnets.webm" type="video/webm">
+                    <source src="videos/magnets.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...a pusher,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/pusher_poster.jpg">
+                    <source src="videos/pusher.webm" type="video/webm">
+                    <source src="videos/pusher.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...a springing pad,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/springs_poster.jpg">
+                    <source src="videos/springs.webm" type="video/webm">
+                    <source src="videos/springs.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...a teleport,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/teleport_poster.jpg">
+                    <source src="videos/teleport.webm" type="video/webm">
+                    <source src="videos/teleport.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...sliding,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/sliding_poster.jpg">
+                    <source src="videos/sliding.webm" type="video/webm">
+                    <source src="videos/sliding.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...a primitive damage system,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/damage_poster.jpg">
+                    <source src="videos/damage.webm" type="video/webm">
+                    <source src="videos/damage.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...a primitive inventory system,..</p>
+            <!-- video -->
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/inventory_poster.jpg">
+                    <source src="videos/inventory.webm" type="video/webm">
+                    <source src="videos/inventory.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>...and, ultimately, a system for displaying the orbs themselves rotating around the character.</p>
+            <!-- image -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload max-width-75-percent" data-srcset="images/animations/orbs_600w.gif" data-sizes="auto" alt="Orbs animation" src="images/animations/orbs_600w.gif" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- image -->
+        </section>
+        <section>
+            <span>step 4</span>
+            <h2>The interface</h2>
+            <p>Before I stopped, my next task was to implement the user interface, which I had previously briefly designed.</p>
+            <p>The images below are from Photoshop:</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-1200">
+                <img class="lazyload margin-bottom-20" data-srcset="images/4-1_1600w.jpg 1600w, images/4-1_1200w.jpg 1200w, images/4-1_600w.jpg 600w" data-sizes="auto" alt="Interface draft 1" src="images/4-1_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                <img class="lazyload margin-bottom-20" data-srcset="images/4-2_1600w.jpg 1600w, images/4-2_1200w.jpg 1200w, images/4-2_600w.jpg 600w" data-sizes="auto" alt="Interface draft 2" src="images/4-2_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                <img class="lazyload" data-srcset="images/4-3_1600w.jpg 1600w, images/4-3_1200w.jpg 1200w, images/4-3_600w.jpg 600w" data-sizes="auto" alt="Interface draft 3" src="images/4-3_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>And that’s where I paused this project.</p>
+        </section>
+        <section>
+            <span>to be continued</span>
+            <h2>Why paused?</h2>
+            <p>By the end of summer 2022, I paused the development due to life circumstances that required my attention on other things. At the moment, the desire to continue this project remains. Perhaps I will find time for it.</p>
+        </section>
+        <section>
+            <span>extra</span>
+            <h2>Try it out</h2>
+            <p>You can download and test the results yourself.</p>
+            <p>Will definitely run on Windows and should also run on Mac and Linux.</p>
+            <p>There is a folder in the .zip archive called “ChubrikTest”. Just run the shortcut ("Launch...") inside the folder and you’re good to go.</p>
+            <p><a href="https://www.dropbox.com/scl/fi/rfyj7bmt6a70l6xdnc1tr/ChubrikTest.zip?dl=0&rlkey=6f6h9n1gsxuv3b9vqf6q3r55t" rel="nofollow" target="_blank">Download the "ChubrikTest.zip" from Dropbox</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for checking this out!</p>
+    </footer>
+
+    <script src="https://mydesigns.info/scripts/lazySizesConfig.js"></script>
+    <script src="https://mydesigns.info/scripts/lazysizes.min.js" async=""></script>
+</body>
+
+</html>

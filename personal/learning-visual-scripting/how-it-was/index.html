@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>How I Learned Visual Scripting in Unity with Bolt | mydesigns.info</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://mydesigns.info/styles.css">
+
+    <!-- this page css -->
+    <link rel="stylesheet" type="text/css" href="../../personal_styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>How I Learned Visual Scripting in Unity with Bolt</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>In the years 2018-2020 I played around with Unity a bit and came to the conclusion that there wasn't much to do without programming. After a while, I came across a Unity asset called Bolt. This asset allowed for creating behavior and more without code, simulating programming, but with certain limitations.</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload" data-srcset="images/1_1200w.jpg 1200w, images/1_600w.jpg 600w" data-sizes="auto" alt="Visual Scripting in Unity with Bolt" src="images/1_1200w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>Anyway, sometime in 2021, I decided to try learning Bolt and create something like a game where you initially appear and see "islands" leading to different "test zones". In the "test zones" I planned to implement various mini-games using Bolt, of course. The idea captivated me for a while, and I started the process of implementing this concept.</p>
+            <p>It's important to note that I completely ignored visual design and focused specifically on functionality. I wanted objects to move, be animated in some way, and be interactable.</p>
+        </section>
+        <section>
+            <span>part 1</span>
+            <h2>The idea</h2>
+            <p>So, as a character object, I chose a flying apparatus that I had previously used for the "Flying torpedo."</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload" data-srcset="images/2_1600w.jpg 1600w, images/2_1200w.jpg 1200w, images/2_600w.jpg 600w" data-sizes="auto" alt="Flying apparatus" src="images/2_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>The "islands" turned out like this (basically, just a simple teleport):</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload" data-srcset="images/3_1600w.jpg 1600w, images/3_1200w.jpg 1200w, images/3_600w.jpg 600w" data-sizes="auto" alt="The 'Islands' = teleport" src="images/3_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>When approaching an island, music plays, and you can set up a “test zone".</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload margin-bottom-20" data-srcset="images/4_1600w.jpg 1600w, images/4_1200w.jpg 1200w, images/4_600w.jpg 600w" data-sizes="auto" alt="When approaching an island" src="images/4_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                <img class="lazyload" data-srcset="images/5_1600w.jpg 1600w, images/5_1200w.jpg 1200w, images/5_600w.jpg 600w" data-sizes="auto" alt="Test zone settings" src="images/5_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>Yeap, the UI and the island look fantastic :D But as I’ve mentioned, I ignored the visual design to save time and focus.</p>
+        </section>
+        <section>
+            <span>part 2</span>
+            <h2>What did I do in the first “test zone"?</h2>
+            <p>The idea was simple.</p>
+            <p>You need to collect objects within a limited amount of time. As you could see from the previous screenshot, in the settings you can specify the number of obstacle blocks, the number of objects to collect and the time limit.</p>
+            <p>And then you get to this:</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload" data-srcset="images/6_1600w.jpg 1600w, images/6_1200w.jpg 1200w, images/6_600w.jpg 600w" data-sizes="auto" alt="Actual gameplay preview" src="images/6_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+            <p>The most challenging part for me was the random generation of objects, so that with the same settings, the objects would be placed differently each time you entered the "zone". It took me about 3-4 days to achieve that. But in the end, it turned out exactly as I had envisioned. I called this part of the functionality - "Scene Builder." And here's what it looked like in Bolt:</p>
+            <!-- video -->            
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/7_poster.jpg">
+                    <source src="videos/7.webm" type="video/webm">
+                    <source src="videos/7.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>At this stage, the "zone" was ready. All that remained was to add the ability to fly in and out of it: losing, winning, or using the menu.</p>
+            <p>And collaboratively with Bolt I came up with this:</p>
+            <!-- img -->
+            <div class="img-wrapper max-width-800">
+                <img class="lazyload" data-srcset="images/8_1600w.jpg 1600w, images/8_1200w.jpg 1200w, images/8_600w.jpg 600w" data-sizes="auto" alt="Bolt nodes" src="images/8_1600w.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+            </div>
+            <!-- img -->
+        </section>
+        <section>
+            <span>part 3</span>
+            <h2>The next &laquo;zone&raquo;</h2>
+            <p>In the next “test zone" I decided to create something similar to "Flappy Bird."</p>
+            <p>The concept was also straightforward.</p>
+            <p>Controls: "WASD" + "Space." You have to fly through openings in the "columns." The openings are always random, they decrease over time, the "columns" start moving, the distance between them decreases and the flying speed increases. The longer you stay, the better.</p>
+            <!-- video -->            
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" playsinline controls poster="videos/9_poster.jpg">
+                    <source src="videos/9.webm" type="video/webm">
+                    <source src="videos/9.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>And that's how only the main game logic functionality looked in Bolt:</p>
+            <!-- video -->            
+            <div class="img-wrapper max-width-800">
+                <video class="lazyload" muted playsinline controls poster="videos/10_poster.jpg">
+                    <source src="videos/10.webm" type="video/webm">
+                    <source src="videos/10.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- video -->
+            <p>In the end, I implemented about 80-90% of this "room". Afterwards, my ambitions suddenly left me, and I didn't even connect this "zone" to the main scene.</p>
+        </section>
+        <section>
+            <span>part 4</span>
+            <h2>What went wrong?</h2>
+            <p>During the development process, I encountered many limitations in Bolt that don't exist in programming. I watched and studied a lot of materials on this topic, compared and thought that maybe I should delve into C# after all, as many said it was worth it. But at that time, Unity announced that they were planning to implement their own Visual Scripting. So, I decided to wait.</p>
+            <p>About a year or a year and a half later, it turned out that instead of developing their own Visual Scripting, Unity simply acquired Bolt. Moreover, they integrated an older version of Bolt, lacking a significant amount of functionality. The most frustrating thing was that Unity didn't actively further develop Bolt. Therefore, this path of development turned out to be a dead end for me.</p>
+        </section>
+        <section>
+            <span>extra</span>
+            <h2>Try ‘em out</h2>
+            <p>You can download and test the results yourself.</p>
+            <p>Will definitely run on Windows and should also run on Mac and Linux.</p>
+            <p>There are 2 separate folders in the .zip archive: “TestRoom v0.1” and “TestZone2”. Just run the shortcuts ("Launch...") in the folders and you’re good to go.</p>
+            <p><a href="https://www.dropbox.com/scl/fi/0cmwcd0qn13joshgtmpee/TheResult.zip?dl=0&rlkey=45sndgsdglkphnxkosl1zf5ck" rel="nofollow" target="_blank">Download the "TheResult.zip" from Dropbox</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for checking this out!</p>
+    </footer>
+
+    <script src="https://mydesigns.info/scripts/lazySizesConfig.js"></script>
+    <script src="https://mydesigns.info/scripts/lazysizes.min.js" async=""></script>
+</body>
+
+</html>
