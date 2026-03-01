@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /plinko-single/
 Allow: /
 
 Sitemap: https://mydesigns.info/sitemap.xml
