@@ -457,6 +457,9 @@ main .sub-tab .no-button {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     position: absolute;
 }
 
