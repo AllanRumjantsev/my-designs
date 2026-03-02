@@ -1,0 +1,37 @@
+{
+  "carouselId": "Carousel",
+  "slides": [
+    {
+      "titleHtml": "design aspects",
+      "contentMdFile": "_data/portfolio/experience/other/design-aspects.md"
+    },
+    {
+      "titleHtml": "front/back-end",
+      "contentMdFile": "_data/portfolio/experience/other/front-back-end.md"
+    },
+    {
+      "titleHtml": "communication",
+      "contentMdFile": "_data/portfolio/experience/other/communication.md"
+    },
+    {
+      "titleHtml": "deadline",
+      "contentMdFile": "_data/portfolio/experience/other/deadline.md"
+    },
+    {
+      "titleHtml": "balance",
+      "contentMdFile": "_data/portfolio/experience/other/balance.md"
+    },
+    {
+      "titleHtml": "deeper & wider",
+      "contentMdFile": "_data/portfolio/experience/other/deeper-wider.md"
+    },
+    {
+      "titleHtml": "self-development",
+      "contentMdFile": "_data/portfolio/experience/other/self-development.md"
+    },
+    {
+      "titleHtml": "other qualities",
+      "contentMdFile": "_data/portfolio/experience/other/other-qualities.md"
+    }
+  ]
+}

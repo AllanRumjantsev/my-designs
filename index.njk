@@ -8,7 +8,7 @@ permalink: /
 <header class="lazyload">
     <div class="line-block"></div>
     <div id="Hero">
-        <h1>{{ portfolio.header.heroTitleHtml | safe }}</h1>
+        <h1>{{ site.header.heroTitleHtml | safe }}</h1>
     </div>
     <div class="block"></div>
 </header>
@@ -17,7 +17,7 @@ permalink: /
 
 <main>
     <section>
-        <h2 class="tab">{{ portfolio.works.title }}</h2>
+        <h2 class="tab">{{ portfolio.works.section.title }}</h2>
         <div id="WORKS-tabs" class="tab sub-tab">
             {% for tab in portfolio.works.tabs %}
             <button class="workstablinks" onclick="openTabWORKS(event, '{{ tab.id }}')"{% if tab.defaultId %} id="{{ tab.defaultId }}"{% endif %}>{{ tab.label }}</button>
@@ -27,7 +27,8 @@ permalink: /
             {% for tab in portfolio.works.tabs %}
             <div id="{{ tab.id }}" class="workstabcontent">
                 <div class="grid">
-                    {% for item in tab.items %}
+                    {% set workItems = portfolio.works[tab.key] %}
+                    {% for item in workItems %}
                     <div class="item">
                         <div class="thumb">
                             <a href="{{ item.primary.href }}"{{ renderAttrs(item.primary.attrs) }}>
@@ -52,18 +53,19 @@ permalink: /
     </section>
 
     <section>
-        <h2 class="tab">{{ portfolio.about.title }}</h2>
+        <h2 class="tab">{{ portfolio.experience.section.title }}</h2>
         <div id="ABOUT-tabs" class="tab sub-tab">
-            {% for tab in portfolio.about.tabs %}
+            {% for tab in portfolio.experience.tabs %}
             <button class="abouttablinks" onclick="openTabABOUT(event, '{{ tab.id }}')"{% if tab.defaultId %} id="{{ tab.defaultId }}"{% endif %}>{{ tab.label }}</button>
             {% endfor %}
         </div>
         <div id="ABOUT">
-            {% for tab in portfolio.about.tabs %}
+            {% for tab in portfolio.experience.tabs %}
+            {% set experienceData = portfolio.experience[tab.key] %}
             <div id="{{ tab.id }}" class="abouttabcontent">
                 {% if tab.type == 'jobs' %}
                 <div class="tab vert-tab subtabcontent" id="Jobs-vert-tab">
-                    {% for item in tab.nav %}
+                    {% for item in experienceData.nav %}
                     <button class="aboutjobstablinks" onclick="openJobsTab(event, '{{ item.targetId }}')"{% if item.defaultId %} id="{{ item.defaultId }}"{% endif %}>
                         <div class="title">
                             {{ item.titleHtml | safe }}
@@ -75,7 +77,7 @@ permalink: /
                     {% endfor %}
                 </div>
 
-                {% for panel in tab.panels %}
+                {% for panel in experienceData.panels %}
                 <div id="{{ panel.id }}" class="jobsverttabcontent">
                     {% if panel.contentMdFile %}
                     {{ panel.contentMdFile | renderMdFile | safe }}
@@ -86,7 +88,7 @@ permalink: /
                 {% endfor %}
                 {% elif tab.type == 'apps' %}
                 <div class="grid">
-                    {% for group in tab.groups %}
+                    {% for group in experienceData.groups %}
                     <div class="grid-in">
                         <div class="title">{{ group.titleHtml | safe }}</div>
                         <div class="items">
@@ -103,8 +105,8 @@ permalink: /
                     {% endfor %}
                 </div>
                 {% elif tab.type == 'other' %}
-                <div id="{{ tab.carouselId }}">
-                    {% for slide in tab.slides %}
+                <div id="{{ experienceData.carouselId }}">
+                    {% for slide in experienceData.slides %}
                     <div class="carousel-item">
                         <div class="title">
                             {{ slide.titleHtml | safe }}
@@ -120,7 +122,7 @@ permalink: /
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ tab.contentHtml | safe }}
+                {{ experienceData.contentHtml | safe }}
                 {% endif %}
             </div>
             {% endfor %}
@@ -128,9 +130,9 @@ permalink: /
     </section>
 
     <section>
-        <h2 class="tab">{{ portfolio.stats.title }}</h2>
+        <h2 class="tab">{{ portfolio.stats.section.title }}</h2>
         <div id="STATS-tab" class="tab sub-tab">
-            <div class="no-button"><span id="To-go">{{ portfolio.stats.toGoText }}</span></div>
+            <div class="no-button"><span id="To-go">{{ portfolio.stats.section.toGoText }}</span></div>
         </div>
         <div id="STATS">
             <div class="grid">

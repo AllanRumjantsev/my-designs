@@ -1,4 +1,8 @@
 module.exports = {
+  header: {
+    heroTitleHtml:
+      "Allan's Digital Design<br/>\n            <span class=\"extra-large\">Portfolio</span>"
+  },
   meta: {
     title: "Allan Rumjantsev | Digital Designer Portfolio",
     description:

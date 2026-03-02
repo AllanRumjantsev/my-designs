@@ -1,0 +1,23 @@
+[
+  {
+    "key": "jobs",
+    "id": "jobs",
+    "label": "jobs",
+    "defaultId": "defaultOpenAbout",
+    "type": "jobs"
+  },
+  {
+    "key": "appsAndCoding",
+    "id": "apps-and-coding",
+    "label": "apps & coding",
+    "defaultId": null,
+    "type": "apps"
+  },
+  {
+    "key": "other",
+    "id": "other",
+    "label": "personal",
+    "defaultId": null,
+    "type": "other"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "key": "videos",
+    "id": "videos",
+    "label": "videos",
+    "defaultId": "defaultOpenWorks"
+  },
+  {
+    "key": "banners",
+    "id": "banners",
+    "label": "banners",
+    "defaultId": null
+  },
+  {
+    "key": "web",
+    "id": "web",
+    "label": "web",
+    "defaultId": null
+  },
+  {
+    "key": "socialMedia",
+    "id": "social-media",
+    "label": "social",
+    "defaultId": null
+  },
+  {
+    "key": "personal",
+    "id": "personal",
+    "label": "exercising",
+    "defaultId": null
+  }
+]

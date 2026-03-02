@@ -1,0 +1,36 @@
+{
+  "nav": [
+    {
+      "targetId": "Third-Job",
+      "defaultId": "defaultOpenJobs",
+      "titleHtml": "Dec 2019 - Jan 2023",
+      "descriptionHtml": "(3 yrs 2 mo)"
+    },
+    {
+      "targetId": "Second-Job",
+      "defaultId": null,
+      "titleHtml": "Dec 2015 - Dec 2019",
+      "descriptionHtml": "(4 yrs 1 mo)"
+    },
+    {
+      "targetId": "First-Job",
+      "defaultId": null,
+      "titleHtml": "Dec 2012 - Dec 2015",
+      "descriptionHtml": "(3 yrs 1 mo)"
+    }
+  ],
+  "panels": [
+    {
+      "id": "First-Job",
+      "contentMdFile": "_data/portfolio/experience/jobs/first-job.md"
+    },
+    {
+      "id": "Second-Job",
+      "contentMdFile": "_data/portfolio/experience/jobs/second-job.md"
+    },
+    {
+      "id": "Third-Job",
+      "contentMdFile": "_data/portfolio/experience/jobs/third-job.md"
+    }
+  ]
+}
