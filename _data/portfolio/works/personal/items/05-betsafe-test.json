@@ -1,0 +1,37 @@
+{
+  "titleHtml": "Betsafe Test",
+  "descriptionHtml": "<b>for:</b> a vacancy of a Junior Graphical Designer at Betsafe (successful)<br>\n<time><b>year:</b> 2018</time>",
+  "primary": {
+    "href": "personal/betsafe-test/1.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "personal-betsafe-test",
+      "data-caption": "Betsafe test result 1, 2018",
+      "data-thumb": "images/personal-thumbs/betsafe-test/1_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/personal-thumbs/betsafe-test/Betsafe-test_preview.jpg 1200w, images/personal-thumbs/betsafe-test/Betsafe-test_preview_800w.jpg 800w, images/personal-thumbs/betsafe-test/Betsafe-test_preview_600w.jpg 600w, images/personal-thumbs/betsafe-test/Betsafe-test_preview_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Santoro doll final result",
+        "src": "images/personal-thumbs/betsafe-test/Betsafe-test_preview.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "personal/betsafe-test/2.jpg",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "personal-betsafe-test",
+        "data-caption": "Betsafe test result 2, 2018",
+        "data-thumb": "images/personal-thumbs/betsafe-test/2_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

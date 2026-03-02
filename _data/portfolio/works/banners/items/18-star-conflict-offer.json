@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Star Conflict Offer",
+  "descriptionHtml": "<b>project:</b> Star Conflict<br>\n<span><b>for:</b> Advmaker partner program</span>\n<span><b>type:</b> Interactive Flash</span>\n<span><b>size:</b> 600x300</span>\n<time><b>year:</b> 2015</time>",
+  "primary": {
+    "href": "banners/flash/StarConflict.mp4",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "flash_banner",
+      "data-caption": "Star Conflict flash banner, 2015"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/banner-thumbs/flash/StarConflict_thumb.jpg 600w, images/banner-thumbs/flash/StarConflict_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Star Conflict flash banner",
+        "src": "images/banner-thumbs/flash/StarConflict_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

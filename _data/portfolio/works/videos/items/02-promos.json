@@ -1,0 +1,103 @@
+{
+  "titleHtml": "Promos",
+  "descriptionHtml": "<b>projects:</b> Castlot, Polybius ICO, Advendor, Winwin Solutions, Lady Popular, Advertstar, Hashflare<br>\n<time><b>years:</b> 2013-2020</time>",
+  "primary": {
+    "href": "videos-webm/promos/Castlot_promo.webm",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "videos-promos",
+      "data-caption": "Castlot promo, 2014",
+      "data-thumb": "images/video-thumbs/promos/Castlot_promo_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/video-thumbs/promos/Promos_thumb.jpg 1200w, images/video-thumbs/promos/Promos_thumb_800w.jpg 800w, images/video-thumbs/promos/Promos_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Video Promos",
+        "src": "images/video-thumbs/promos/Promos_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "videos-webm/promos/Polybius_promo.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-promos",
+        "data-caption": "Polybius promo, 2018",
+        "data-thumb": "images/video-thumbs/promos/Polybius_promo_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/promos/Advendor_promo.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-promos",
+        "data-caption": "Advendor promo, 2020",
+        "data-thumb": "images/video-thumbs/promos/Advendor_promo_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/promos/Winwin_promo.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-promos",
+        "data-caption": "Winwin Solutions promo, 2017",
+        "data-thumb": "images/video-thumbs/promos/Winwin_promo_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/promos/LadyPopular_promo.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-promos",
+        "data-caption": "LadyPopular promo, 2014",
+        "data-thumb": "images/video-thumbs/promos/LadyPopular_promo_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/promos/Advertstar_promo.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-promos",
+        "data-caption": "Advertstar promo, 2013",
+        "data-thumb": "images/video-thumbs/promos/Advertstar_promo_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/promos/Hashflare_dash_promo.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-promos",
+        "data-caption": "Hashflare Dash promo, 2018",
+        "data-thumb": "images/video-thumbs/promos/Hashflare_dash_promo_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/promos/Hashflare_promo.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-promos",
+        "data-caption": "Hashflare promo, 2017",
+        "data-thumb": "images/video-thumbs/promos/Hashflare_promo_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

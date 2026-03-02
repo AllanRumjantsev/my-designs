@@ -1,0 +1,13 @@
+{
+  "nameHtml": "Javascript",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/js.svg",
+      "data-sizes": "auto",
+      "alt": "Javascript logo",
+      "src": "logos/js.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "titleHtml": "&laquo;Warrior&raquo; + The Making-of",
+  "descriptionHtml": "<b>for:</b> Photoshop practice<br>\n<time><b>year:</b> 2021</time>",
+  "primary": {
+    "href": "personal/warrior/Warrior_fin.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "personal-warrior",
+      "data-caption": "&laquo;Warrior&raquo; final result, 2021",
+      "data-thumb": "images/personal-thumbs/warrior/Warrior_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/personal-thumbs/warrior/Warrior_preview.jpg 1200w, images/personal-thumbs/warrior/Warrior_preview_800w.jpg 800w, images/personal-thumbs/warrior/Warrior_preview_600w.jpg 600w, images/personal-thumbs/warrior/Warrior_preview_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Warrior final result",
+        "src": "images/personal-thumbs/warrior/Warrior_preview.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "personal/warrior/making-of/index.html",
+      "attrs": {
+        "class": "hidden",
+        "data-type": "iframe",
+        "data-fancybox": "personal-warrior",
+        "data-caption": "The making of &laquo;Warrior&raquo;, 2021",
+        "data-thumb": "images/personal-thumbs/warrior/Warrior_making-of_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "titleHtml": "Intros",
+  "descriptionHtml": "<b>projects:</b> Advmaker, Playvision, Advertstar, Strazhi, Castlot, PerfectFX (personal)<br>\n<time><b>years:</b> 2014-2017</time>",
+  "primary": {
+    "href": "videos-webm/intros/Advmaker_intro.webm",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "videos-intros",
+      "data-caption": "Advmaker intro, 2014",
+      "data-thumb": "images/video-thumbs/intros/Advmaker_intro_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/video-thumbs/intros/Intros_thumb.jpg 1200w, images/video-thumbs/intros/Intros_thumb_800w.jpg 800w, images/video-thumbs/intros/Intros_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Video Intros",
+        "src": "images/video-thumbs/intros/Intros_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "videos-webm/intros/Playvision_intro.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-intros",
+        "data-caption": "Playvision intro, 2014",
+        "data-thumb": "images/video-thumbs/intros/Playvision_intro_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/intros/Advertstar_intro.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-intros",
+        "data-caption": "Advertstar intro, 2014",
+        "data-thumb": "images/video-thumbs/intros/Advertstar_intro_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/intros/Strazhi_intro.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-intros",
+        "data-caption": "Strazhi intro, 2017",
+        "data-thumb": "images/video-thumbs/intros/Strazhi_intro_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/intros/Castlot_intro.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-intros",
+        "data-caption": "Castlot intro, 2014",
+        "data-thumb": "images/video-thumbs/intros/Castlot_intro_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/intros/PerfectFX_intro.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-intros",
+        "data-caption": "PerfectFX intro, 2015",
+        "data-thumb": "images/video-thumbs/intros/PerfectFX_intro_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

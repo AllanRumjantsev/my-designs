@@ -1,0 +1,13 @@
+{
+  "nameHtml": "Figma",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/figma.svg",
+      "data-sizes": "auto",
+      "alt": "Figma logo",
+      "src": "logos/figma.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

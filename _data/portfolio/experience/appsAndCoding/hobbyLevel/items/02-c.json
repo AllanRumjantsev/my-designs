@@ -1,0 +1,13 @@
+{
+  "nameHtml": "C#",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/c_sharp.svg",
+      "data-sizes": "auto",
+      "alt": "C# logo",
+      "src": "logos/c_sharp.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

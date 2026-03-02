@@ -27,8 +27,9 @@ permalink: /
             {% for tab in portfolio.works.tabs %}
             <div id="{{ tab.id }}" class="workstabcontent">
                 <div class="grid">
-                    {% set workItems = portfolio.works[tab.key] %}
-                    {% for item in workItems %}
+                    {% set workGroup = portfolio.works[tab.key] %}
+                    {% for itemKey in workGroup.order %}
+                    {% set item = workGroup.items[itemKey] %}
                     <div class="item">
                         <div class="thumb">
                             <a href="{{ item.primary.href }}"{{ renderAttrs(item.primary.attrs) }}>
@@ -88,11 +89,13 @@ permalink: /
                 {% endfor %}
                 {% elif tab.type == 'apps' %}
                 <div class="grid">
-                    {% for group in experienceData.groups %}
+                    {% for groupKey in experienceData.order %}
+                    {% set groupData = experienceData[groupKey] %}
                     <div class="grid-in">
-                        <div class="title">{{ group.titleHtml | safe }}</div>
+                        <div class="title">{{ groupData.group.titleHtml | safe }}</div>
                         <div class="items">
-                            {% for item in group.items %}
+                            {% for itemKey in groupData.order %}
+                            {% set item = groupData.items[itemKey] %}
                             <div class="item">
                                 <div class="thumb">
                                     <img{{ renderAttrs(item.image.attrs) }}>

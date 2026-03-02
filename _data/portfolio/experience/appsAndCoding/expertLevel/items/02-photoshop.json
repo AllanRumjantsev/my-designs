@@ -1,0 +1,13 @@
+{
+  "nameHtml": "Photoshop",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/photoshop.svg",
+      "data-sizes": "auto",
+      "alt": "Photoshop logo",
+      "src": "logos/photoshop.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

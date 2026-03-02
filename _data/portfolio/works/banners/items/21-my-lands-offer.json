@@ -1,0 +1,24 @@
+{
+  "titleHtml": "My Lands Offer",
+  "descriptionHtml": "<b>project:</b> My Lands<br>\n<span><b>for:</b> Advmaker partner program</span>\n<span><b>type:</b> Interactive Flash</span>\n<span><b>size:</b> 600x300</span>\n<time><b>year:</b> 2013</time>",
+  "primary": {
+    "href": "banners/flash/MyLands_2.mp4",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "flash_banner",
+      "data-caption": "My Lands flash banner, 2013"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/banner-thumbs/flash/MyLands_demotivator2_thumb.jpg 600w, images/banner-thumbs/flash/MyLands_demotivator2_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "My Lands flash banner",
+        "src": "images/banner-thumbs/flash/MyLands_demotivator2_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

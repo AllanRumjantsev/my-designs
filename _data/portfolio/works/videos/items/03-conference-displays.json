@@ -1,0 +1,70 @@
+{
+  "titleHtml": "Conference Displays",
+  "descriptionHtml": "<b>projects:</b> Advendor, Advertstar, Advmaker<br>\n<time><b>years:</b> 2014-2018</time>",
+  "primary": {
+    "href": "videos-webm/displays/Advendor_display.webm",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "videos-displays",
+      "data-caption": "Advendor conference display, 2018",
+      "data-thumb": "images/video-thumbs/displays/Advendor_display_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/video-thumbs/displays/Displays_thumb.jpg 1200w, images/video-thumbs/displays/Displays_thumb_800w.jpg 800w, images/video-thumbs/displays/Displays_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Video Displays",
+        "src": "images/video-thumbs/displays/Displays_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "videos-webm/displays/Advertstar_display.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-displays",
+        "data-caption": "Advertstar conference display, 2014",
+        "data-thumb": "images/video-thumbs/displays/Advertstar_display_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/displays/Advmaker_display.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-displays",
+        "data-caption": "Advmaker conference display, 2015",
+        "data-thumb": "images/video-thumbs/displays/Advmaker_display_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/displays/Advendor_Star-Wars-afterparty_1_display.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-displays",
+        "data-caption": "Advendor Star Wars afterparty display 1, 2018",
+        "data-thumb": "images/video-thumbs/displays/Advendor_Star-Wars-afterparty_1_display_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/displays/Advendor_Star-Wars-afterparty_2_display.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-displays",
+        "data-caption": "Advendor Star Wars afterparty display 2, 2018",
+        "data-thumb": "images/video-thumbs/displays/Advendor_Star-Wars-afterparty_2_display_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

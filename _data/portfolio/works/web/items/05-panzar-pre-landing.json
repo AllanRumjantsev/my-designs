@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Panzar Pre-landing",
+  "descriptionHtml": "<b>project:</b> Panzar<br>\n<span><b>for:</b> Advmaker partner program</span>\n<time><b>year:</b> 2013</time>",
+  "primary": {
+    "href": "web/landings/Panzar.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "single",
+      "data-caption": "Panzar pre-landing, 2013"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/web-thumbs/landings/Panzar_thumb.jpg, images/web-thumbs/landings/Panzar_thumb_800w.jpg 800w, images/web-thumbs/landings/Panzar_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Panzar pre-landing",
+        "src": "images/web-thumbs/landings/Panzar_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

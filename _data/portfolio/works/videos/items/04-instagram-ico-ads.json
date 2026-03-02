@@ -1,0 +1,70 @@
+{
+  "titleHtml": "Instagram ICO Ads",
+  "descriptionHtml": "<b>projects:</b> Utrust, Cryptopay, Privatix, B2BX, Hamster Marketplace (no longer exists)<br>\n<time><b>year:</b> 2017</time>",
+  "primary": {
+    "href": "videos-webm/insta/Utrust_insta.webm",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "videos-insta",
+      "data-caption": "Utrust Instagram ICO ad, 2017",
+      "data-thumb": "images/video-thumbs/insta/Utrust_insta_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/video-thumbs/insta/Insta_thumb.jpg 1200w, images/video-thumbs/insta/Insta_thumb_800w.jpg 800w, images/video-thumbs/insta/Insta_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Instagram Video Ads",
+        "src": "images/video-thumbs/insta/Insta_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "videos-webm/insta/Cryptopay_insta.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-insta",
+        "data-caption": "Cryptopay Instagram ICO ad, 2017",
+        "data-thumb": "images/video-thumbs/insta/Cryptopay_insta_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/insta/Privatix_insta.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-insta",
+        "data-caption": "Privatix Instagram ICO ad, 2017",
+        "data-thumb": "images/video-thumbs/insta/Privatix_insta_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/insta/B2BX_insta.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-insta",
+        "data-caption": "B2BX Instagram ICO ad, 2017",
+        "data-thumb": "images/video-thumbs/insta/B2BX_insta_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/insta/Hamster_insta.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-insta",
+        "data-caption": "Hamster Instagram ICO ad, 2017",
+        "data-thumb": "images/video-thumbs/insta/Hamster_insta_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

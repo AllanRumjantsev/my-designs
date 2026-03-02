@@ -1,0 +1,13 @@
+{
+  "nameHtml": "Illustrator",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/illustrator.svg",
+      "data-sizes": "auto",
+      "alt": "Illustrator logo",
+      "src": "logos/illustrator.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

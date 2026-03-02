@@ -1,0 +1,13 @@
+{
+  "nameHtml": "Cinema 4D",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/c4d.svg",
+      "data-sizes": "auto",
+      "alt": "Cinema 4D logo",
+      "src": "logos/c4d.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

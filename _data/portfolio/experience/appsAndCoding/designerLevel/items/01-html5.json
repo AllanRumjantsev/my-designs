@@ -1,0 +1,13 @@
+{
+  "nameHtml": "HTML5",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/html5.svg",
+      "data-sizes": "auto",
+      "alt": "HTML5 logo",
+      "src": "logos/html5.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "titleHtml": "How I Learned Visual Scripting in Unity with Bolt",
+  "descriptionHtml": "<b>for:</b> Unity visual scripting practice<br>\n<time><b>year:</b> 2021</time>",
+  "primary": {
+    "href": "personal/learning-visual-scripting/how-it-was/index.html",
+    "attrs": {
+      "class": "lazyload",
+      "data-type": "iframe",
+      "data-fancybox": "single",
+      "data-caption": "How I Learned Visual Scripting in Unity with Bolt, 2022"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview.jpg 1200w, images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview_800w.jpg 800w, images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview_600w.jpg 600w, images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Learning Visual Scripting",
+        "src": "images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

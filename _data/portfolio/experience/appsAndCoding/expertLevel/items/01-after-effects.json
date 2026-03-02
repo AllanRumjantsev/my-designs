@@ -1,0 +1,13 @@
+{
+  "nameHtml": "After Effects",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/after_effects.svg",
+      "data-sizes": "auto",
+      "alt": "After Effects logo",
+      "src": "logos/after_effects.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "titleHtml": "Warface Offer",
+  "descriptionHtml": "<b>project:</b> Warface<br>\n<span><b>for:</b> Advmaker partner program</span>\n<span><b>type:</b> Interactive HTML</span>\n<span><b>size:</b> 600x200</span>\n<time><b>year:</b> 2015</time>",
+  "primary": {
+    "href": "banners/html/Warface_600x200/index.html",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "html_banner",
+      "data-type": "iframe",
+      "data-width": "600",
+      "data-height": "200",
+      "data-caption": "Warface offer html banner, 2015"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/banner-thumbs/html/Warface_thumb.jpg 600w, images/banner-thumbs/html/Warface_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Warface offer html banner",
+        "src": "images/banner-thumbs/html/Warface_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

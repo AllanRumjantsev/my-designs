@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Advendor Redesign Concept",
+  "descriptionHtml": "<b>project:</b> Advendor<br>\n<span><b>for:</b> Advendor website</span>\n<time><b>year:</b> 2017</time>",
+  "primary": {
+    "href": "web/sites/Advendor.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "single",
+      "data-caption": "Advendor redesign concept, 2017"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/web-thumbs/sites/Advendor_thumb.jpg, images/web-thumbs/sites/Advendor_thumb_800w.jpg 800w, images/web-thumbs/sites/Advendor_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Advendor website redesign concept",
+        "src": "images/web-thumbs/sites/Advendor_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

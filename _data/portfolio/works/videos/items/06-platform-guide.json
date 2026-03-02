@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Platform Guide",
+  "descriptionHtml": "<b>project:</b> Advendor<br>\n<time><b>year:</b> 2020</time>",
+  "primary": {
+    "href": "videos-webm/misc/Advendor_platform_video_guide.webm",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "videos-misc",
+      "data-caption": "Advendor platform video guide, 2020"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/video-thumbs/misc/Advendor_platform_video_guide_thumb.jpg 1200w, images/video-thumbs/misc/Advendor_platform_video_guide_thumb_800w.jpg 800w, images/video-thumbs/misc/Advendor_platform_video_guide_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Advendor Platform Video Guide",
+        "src": "images/video-thumbs/misc/Advendor_platform_video_guide_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

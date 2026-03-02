@@ -1,0 +1,81 @@
+{
+  "titleHtml": "Events",
+  "descriptionHtml": "<b>projects:</b> Burfa, Advendor, Hashflare<br>\n<time><b>years:</b> 2019-2021</time>",
+  "primary": {
+    "href": "social-media/events/Burfa_2k20.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "social_media_images_events",
+      "data-caption": "Burfa 2k20 greeting card, 2019",
+      "data-thumb": "images/sm-thumbs/events/Burfa_2k20_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/sm-thumbs/events/Events_thumb.jpg, images/sm-thumbs/events/Events_thumb_800w.jpg 800w, images/sm-thumbs/events/Events_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Events",
+        "src": "images/sm-thumbs/events/Events_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "social-media/events/Burfa_2k20_preview.jpg",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "social_media_images_events",
+        "data-caption": "Burfa 2k20 greeting card mockup preview, 2019",
+        "data-thumb": "images/sm-thumbs/events/Burfa_2k20_preview_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "social-media/events/Advendor_bf.jpg",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "social_media_images_events",
+        "data-caption": "Advendor Black Friday 1, 2019",
+        "data-thumb": "images/sm-thumbs/events/Advendor_bf_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "social-media/events/Advendor_bf_2.jpg",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "social_media_images_events",
+        "data-caption": "Advendor Black Friday 2, 2021",
+        "data-thumb": "images/sm-thumbs/events/Advendor_bf_2_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "social-media/events/Hashflare_halloween.jpg",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "social_media_images_events",
+        "data-caption": "Hashflare Halloween mail header image, 2017",
+        "data-thumb": "images/sm-thumbs/events/Hashflare_halloween_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "social-media/events/Advendor_hny2021.jpg",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "social_media_images_events",
+        "data-caption": "Advendor Happy New year, 2020",
+        "data-thumb": "images/sm-thumbs/events/Advendor_hny2021_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

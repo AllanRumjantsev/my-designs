@@ -1,0 +1,25 @@
+{
+  "titleHtml": "UX/UI Redevelopment Case: Adelinx",
+  "descriptionHtml": "<b>project:</b> Adelinx<br>\n<span><b>for:</b> Adelinx platform</span>\n<time><b>years:</b> 2021-2022</time>",
+  "primary": {
+    "href": "web/sites/adelinx/index.html",
+    "attrs": {
+      "class": "lazyload",
+      "data-type": "iframe",
+      "data-fancybox": "single",
+      "data-caption": "UX/UI Redevelopment Case: Adelinx, 2022"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/web-thumbs/sites/Adelinx_thumb.jpg, images/web-thumbs/sites/Adelinx_thumb_800w.jpg 800w, images/web-thumbs/sites/Adelinx_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "UX/UI Redevelopment Case: Adelinx",
+        "src": "images/web-thumbs/sites/Adelinx_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

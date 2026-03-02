@@ -1,0 +1,27 @@
+{
+  "titleHtml": "Hashflare Promo 4",
+  "descriptionHtml": "<b>project:</b> Hashflare<br>\n<span><b>for:</b> Advendor, Hashflare partners</span>\n<span><b>type:</b> HTML</span>\n<span><b>size:</b> 600x200</span>\n<time><b>year:</b> 2018</time>",
+  "primary": {
+    "href": "banners/html/HF_4_600x200/index.html",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "html_banner",
+      "data-type": "iframe",
+      "data-width": "600",
+      "data-height": "200",
+      "data-caption": "Hashflare promo 4 html banner, 2018"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/banner-thumbs/html/HF_4_thumb.jpg 600w, images/banner-thumbs/html/HF_4_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Hashflare promo 4 html banner",
+        "src": "images/banner-thumbs/html/HF_4_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

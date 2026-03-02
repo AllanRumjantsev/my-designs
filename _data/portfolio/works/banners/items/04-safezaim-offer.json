@@ -1,0 +1,24 @@
+{
+  "titleHtml": "SafeZaim Offer",
+  "descriptionHtml": "<b>project:</b> SafeZaim<br>\n<span><b>for:</b> Advendor partner program</span>\n<span><b>type:</b> Animated GIF</span>\n<span><b>size:</b> 240x400</span>\n<time><b>year:</b> 2019</time>",
+  "primary": {
+    "href": "banners/gif/SafeZaim.gif",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "gif_banner",
+      "data-caption": "SafeZaim offer banner, 2019"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/banner-thumbs/gif/SafeZaim_thumb.jpg 600w, images/banner-thumbs/gif/SafeZaim_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "SafeZaim offer banner",
+        "src": "images/banner-thumbs/gif/SafeZaim_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

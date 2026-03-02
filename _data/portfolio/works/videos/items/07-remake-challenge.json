@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Remake Challenge",
+  "descriptionHtml": "<b>description:</b> The task was to reconstruct any 10 seconds of <a href=\"https://vimeo.com/41980725\" title=\"The vacancy original video\" target=\"_blank\" rel=\"nofollow\">this video</a> avoiding the front and the end credits.<br>\n<time><b>year:</b> 2012</time>",
+  "primary": {
+    "href": "videos-webm/misc/Where_is_the devil.webm",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "videos-misc",
+      "data-caption": "Early motion graphics practice, 2012"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/video-thumbs/misc/Where_is_the_devil_thumb.jpg 1200w, images/video-thumbs/misc/Where_is_the_devil_thumb_800w.jpg 800w, images/video-thumbs/misc/Where_is_the_devil_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Remake Challenge",
+        "src": "images/video-thumbs/misc/Where_is_the_devil_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

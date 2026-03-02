@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Combat Arms Offer",
+  "descriptionHtml": "<b>project:</b> Combat Arms<br>\n<span><b>for:</b> Advmaker partner program</span>\n<span><b>type:</b> Interactive Flash</span>\n<span><b>size:</b> 600x200</span>\n<time><b>year:</b> 2013</time>",
+  "primary": {
+    "href": "banners/flash/CombatArms_1.mp4",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "flash_banner",
+      "data-caption": "Combat Arms flash banner, 2013"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/banner-thumbs/flash/CombatArms_1_thumb.jpg 600w, images/banner-thumbs/flash/CombatArms_1_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Combat Arms flash banner",
+        "src": "images/banner-thumbs/flash/CombatArms_1_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

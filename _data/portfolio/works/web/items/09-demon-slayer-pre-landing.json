@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Demon Slayer Pre-landing",
+  "descriptionHtml": "<b>project:</b> Demon Slayer<br>\n<span><b>for:</b> Advmaker partner program</span>\n<time><b>year:</b> 2013</time>",
+  "primary": {
+    "href": "web/landings/DemonSlayer.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "single",
+      "data-caption": "Demon Slayer pre-landing, 2013"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/web-thumbs/landings/DemonSlayer_thumb.jpg, images/web-thumbs/landings/DemonSlayer_thumb_800w.jpg 800w, images/web-thumbs/landings/DemonSlayer_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "7th Element pre-landing",
+        "src": "images/web-thumbs/landings/DemonSlayer_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

@@ -1,0 +1,24 @@
+{
+  "titleHtml": "Sword",
+  "descriptionHtml": "<b>for:</b> 3D practice, incl. texturing<br>\n<time><b>year:</b> 2017</time>",
+  "primary": {
+    "href": "personal/sword/Sword.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "personal-sword",
+      "data-caption": "Sword, 2017"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/personal-thumbs/sword/Sword.jpg 1200w, images/personal-thumbs/sword/Sword_800w.jpg 800w, images/personal-thumbs/sword/Sword_600w.jpg 600w, images/personal-thumbs/sword/Sword_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Dagger 3d practice",
+        "src": "images/personal-thumbs/sword/Sword.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

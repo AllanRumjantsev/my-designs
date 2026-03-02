@@ -1,0 +1,38 @@
+{
+  "titleHtml": "&laquo;Flying Torpedo&raquo; + The Making-of",
+  "descriptionHtml": "<b>for:</b> Photoshop practice<br>\n<time><b>year:</b> 2021</time>",
+  "primary": {
+    "href": "personal/flying-torpedo/Flying-torpedo_fin.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "personal-flying-torpedo",
+      "data-caption": "&laquo;Flying torpedo&raquo; final result, 2021",
+      "data-thumb": "images/personal-thumbs/flying-torpedo/Flying-torpedo_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/personal-thumbs/flying-torpedo/Flying-torpedo_preview.jpg 1200w, images/personal-thumbs/flying-torpedo/Flying-torpedo_preview_800w.jpg 800w, images/personal-thumbs/flying-torpedo/Flying-torpedo_preview_600w.jpg 600w, images/personal-thumbs/flying-torpedo/Flying-torpedo_preview_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Flying torpedo final result",
+        "src": "images/personal-thumbs/flying-torpedo/Flying-torpedo_preview.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "personal/flying-torpedo/making-of/index.html",
+      "attrs": {
+        "class": "hidden",
+        "data-type": "iframe",
+        "data-fancybox": "personal-flying-torpedo",
+        "data-caption": "The making of &laquo;Flying torpedo&raquo;, 2021",
+        "data-thumb": "images/personal-thumbs/flying-torpedo/Flying-torpedo_making-of_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

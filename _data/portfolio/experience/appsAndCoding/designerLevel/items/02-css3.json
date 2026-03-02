@@ -1,0 +1,13 @@
+{
+  "nameHtml": "CSS3",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/css3.svg",
+      "data-sizes": "auto",
+      "alt": "CSS3 logo",
+      "src": "logos/css3.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

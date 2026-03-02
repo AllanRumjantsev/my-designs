@@ -1,0 +1,13 @@
+{
+  "nameHtml": "Substance 3D Painter",
+  "image": {
+    "attrs": {
+      "class": "lazyload",
+      "data-srcset": "images/logos/substance.svg",
+      "data-sizes": "auto",
+      "alt": "Substance 3D Painter logo",
+      "src": "logos/substance.svg",
+      "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    }
+  }
+}

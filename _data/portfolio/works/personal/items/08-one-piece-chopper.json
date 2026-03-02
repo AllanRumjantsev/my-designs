@@ -1,0 +1,24 @@
+{
+  "titleHtml": "One Piece Chopper",
+  "descriptionHtml": "<b>for:</b> 3D practice<br>\n<span><b>why:</b> inspired by <a href=\"https://www.artstation.com/artwork/6a1ydr\" title=\"One Piece (Chopper) by Mohamed Chahin\" rel=\"nofollow\" target=\"_blank\">this dude and his work</a></span>\n<time><b>year:</b> 2018</time>",
+  "primary": {
+    "href": "personal/onepiece-chopper/OnePiece-Chopper.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "personal-chopper",
+      "data-caption": "One Piece Chopper, 2018"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/personal-thumbs/onepiece-chopper/OnePiece-Chopper.jpg 1200w, images/personal-thumbs/onepiece-chopper/OnePiece-Chopper_800w.jpg 800w, images/personal-thumbs/onepiece-chopper/OnePiece-Chopper_600w.jpg 600w, images/personal-thumbs/onepiece-chopper/OnePiece-Chopper_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "One Piece Chopper 3D practice",
+        "src": "images/personal-thumbs/onepiece-chopper/OnePiece-Chopper.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

@@ -1,0 +1,24 @@
+{
+  "titleHtml": "7th Element Pre-landing",
+  "descriptionHtml": "<b>project:</b> 7th Element<br>\n<span><b>for:</b> Advmaker partner program</span>\n<time><b>year:</b> 2014</time>",
+  "primary": {
+    "href": "web/landings/7thElement.jpg",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "single",
+      "data-caption": "7th Element pre-landing, 2014"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/web-thumbs/landings/7thElement_thumb.jpg, images/web-thumbs/landings/7thElement_thumb_800w.jpg 800w, images/web-thumbs/landings/7thElement_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "7th Element pre-landing",
+        "src": "images/web-thumbs/landings/7thElement_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}

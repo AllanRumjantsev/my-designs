@@ -1,0 +1,81 @@
+{
+  "titleHtml": "Templates",
+  "descriptionHtml": "<b>for:</b> Videohive (paid), free<br>\n<time><b>year:</b> 2015</time>",
+  "primary": {
+    "href": "videos-webm/templates/Warriors_Fury_template.webm",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "videos-templates",
+      "data-caption": "&laquo;Warrior&apos;s Fury&raquo; template, 2015",
+      "data-thumb": "images/video-thumbs/templates/Warriors_Fury_template_thumb.jpg"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/video-thumbs/templates/Templates_thumb.jpg 1200w, images/video-thumbs/templates/Templates_thumb_800w.jpg 800w, images/video-thumbs/templates/Templates_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "Video Templates",
+        "src": "images/video-thumbs/templates/Templates_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": [
+    {
+      "href": "videos-webm/templates/The_Dragons_Modular_Trailer_template.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-templates",
+        "data-caption": "&laquo;The Dragon&apos;s Modular Trailer&raquo; template, 2015",
+        "data-thumb": "images/video-thumbs/templates/The_Dragons_Modular_Trailer_template_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/templates/Burning_Fuse_template.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-templates",
+        "data-caption": "&laquo;Burning Fuse Cinematic Trailer Titles&raquo; template, 2015",
+        "data-thumb": "images/video-thumbs/templates/Burning_Fuse_template_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/templates/War_Blockbuster_template.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-templates",
+        "data-caption": "&laquo;War Blockbuster Movie Titles&raquo; template, 2015",
+        "data-thumb": "images/video-thumbs/templates/War_Blockbuster_template_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/templates/Horror_Glitchy_template.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-templates",
+        "data-caption": "&laquo;Horror Glitchy Trailer Titles&raquo; template, 2015",
+        "data-thumb": "images/video-thumbs/templates/Horror_Glitchy_template_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    },
+    {
+      "href": "videos-webm/templates/Modern_Blockbuster_template.webm",
+      "attrs": {
+        "class": "hidden",
+        "data-fancybox": "videos-templates",
+        "data-caption": "&laquo;Modern Blockbuster Trailer Titles&raquo; template, 2015",
+        "data-thumb": "images/video-thumbs/templates/Modern_Blockbuster_template_thumb.jpg"
+      },
+      "img": null,
+      "innerHtml": ""
+    }
+  ]
+}

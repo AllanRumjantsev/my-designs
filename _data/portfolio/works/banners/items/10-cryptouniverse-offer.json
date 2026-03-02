@@ -1,0 +1,27 @@
+{
+  "titleHtml": "CryptoUniverse Offer",
+  "descriptionHtml": "<b>project:</b> CryptoUniverse<br>\n<span><b>for:</b> Advendor, Hashflare partners</span>\n<span><b>type:</b> HTML</span>\n<span><b>size:</b> 240x400</span>\n<time><b>year:</b> 2019</time>",
+  "primary": {
+    "href": "banners/html/CryptoUniverse_240x400/index.html",
+    "attrs": {
+      "class": "lazyload",
+      "data-fancybox": "html_banner",
+      "data-type": "iframe",
+      "data-width": "240",
+      "data-height": "400",
+      "data-caption": "CryptoUniverse html banner, 2019"
+    },
+    "img": {
+      "attrs": {
+        "class": "lazyload",
+        "data-srcset": "images/banner-thumbs/html/CryptoUniverse_thumb.jpg 600w, images/banner-thumbs/html/CryptoUniverse_thumb_400w.jpg 400w",
+        "data-sizes": "auto",
+        "alt": "CryptoUniverse html banner",
+        "src": "images/banner-thumbs/html/CryptoUniverse_thumb.jpg",
+        "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+      }
+    },
+    "innerHtml": null
+  },
+  "hidden": []
+}
