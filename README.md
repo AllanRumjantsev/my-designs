@@ -15,4 +15,29 @@ Collection of design assets and web project files.
 
 ## Getting started
 
-Open `index.html` in a browser to preview the project.
+### Install
+
+```bash
+npm install
+```
+
+### Local development
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:8080/`.
+
+### Production build
+
+```bash
+npm run build
+```
+
+The built site is generated in `_site/`.
+
+### Deploy
+
+This repository deploys to GitHub Pages via GitHub Actions workflow:
+`.github/workflows/deploy.yml`.

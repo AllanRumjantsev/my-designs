@@ -1,0 +1,14 @@
+{
+  "name": "allan-rumjantsev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site migrated to Eleventy + Nunjucks",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "markdown-it": "^14.1.0"
+  }
+}

@@ -1,0 +1,154 @@
+---
+layout: layouts/base.njk
+permalink: /
+---
+
+{% macro renderAttrs(attrs) %}{% for key, value in attrs %} {{ key }}="{{ value | safe }}"{% endfor %}{% endmacro %}
+
+<header class="lazyload">
+    <div class="line-block"></div>
+    <div id="Hero">
+        <h1>{{ portfolio.header.heroTitleHtml | safe }}</h1>
+    </div>
+    <div class="block"></div>
+</header>
+
+<!--Tabs START -->
+
+<main>
+    <section>
+        <h2 class="tab">{{ portfolio.works.title }}</h2>
+        <div id="WORKS-tabs" class="tab sub-tab">
+            {% for tab in portfolio.works.tabs %}
+            <button class="workstablinks" onclick="openTabWORKS(event, '{{ tab.id }}')"{% if tab.defaultId %} id="{{ tab.defaultId }}"{% endif %}>{{ tab.label }}</button>
+            {% endfor %}
+        </div>
+        <div id="WORKS">
+            {% for tab in portfolio.works.tabs %}
+            <div id="{{ tab.id }}" class="workstabcontent">
+                <div class="grid">
+                    {% for item in tab.items %}
+                    <div class="item">
+                        <div class="thumb">
+                            <a href="{{ item.primary.href }}"{{ renderAttrs(item.primary.attrs) }}>
+                                {% if item.primary.img %}
+                                <img{{ renderAttrs(item.primary.img.attrs) }}>
+                                {% else %}
+                                {{ item.primary.innerHtml | safe }}
+                                {% endif %}
+                            </a>
+                            {% for link in item.hidden %}
+                            <a href="{{ link.href }}"{{ renderAttrs(link.attrs) }}>{{ link.innerHtml | safe }}</a>
+                            {% endfor %}
+                        </div>
+                        <div class="title">{{ item.titleHtml | safe }}</div>
+                        <div class="descr">{{ item.descriptionHtml | safe }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section>
+        <h2 class="tab">{{ portfolio.about.title }}</h2>
+        <div id="ABOUT-tabs" class="tab sub-tab">
+            {% for tab in portfolio.about.tabs %}
+            <button class="abouttablinks" onclick="openTabABOUT(event, '{{ tab.id }}')"{% if tab.defaultId %} id="{{ tab.defaultId }}"{% endif %}>{{ tab.label }}</button>
+            {% endfor %}
+        </div>
+        <div id="ABOUT">
+            {% for tab in portfolio.about.tabs %}
+            <div id="{{ tab.id }}" class="abouttabcontent">
+                {% if tab.type == 'jobs' %}
+                <div class="tab vert-tab subtabcontent" id="Jobs-vert-tab">
+                    {% for item in tab.nav %}
+                    <button class="aboutjobstablinks" onclick="openJobsTab(event, '{{ item.targetId }}')"{% if item.defaultId %} id="{{ item.defaultId }}"{% endif %}>
+                        <div class="title">
+                            {{ item.titleHtml | safe }}
+                        </div>
+                        <div class="descr">
+                            {{ item.descriptionHtml | safe }}
+                        </div>
+                    </button>
+                    {% endfor %}
+                </div>
+
+                {% for panel in tab.panels %}
+                <div id="{{ panel.id }}" class="jobsverttabcontent">
+                    {% if panel.contentMdFile %}
+                    {{ panel.contentMdFile | renderMdFile | safe }}
+                    {% else %}
+                    {{ panel.contentHtml | safe }}
+                    {% endif %}
+                </div>
+                {% endfor %}
+                {% elif tab.type == 'apps' %}
+                <div class="grid">
+                    {% for group in tab.groups %}
+                    <div class="grid-in">
+                        <div class="title">{{ group.titleHtml | safe }}</div>
+                        <div class="items">
+                            {% for item in group.items %}
+                            <div class="item">
+                                <div class="thumb">
+                                    <img{{ renderAttrs(item.image.attrs) }}>
+                                </div>
+                                <div class="descr">{{ item.nameHtml | safe }}</div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% elif tab.type == 'other' %}
+                <div id="{{ tab.carouselId }}">
+                    {% for slide in tab.slides %}
+                    <div class="carousel-item">
+                        <div class="title">
+                            {{ slide.titleHtml | safe }}
+                        </div>
+                        <div class="descr">
+                            {% if slide.contentMdFile %}
+                            {{ slide.contentMdFile | renderMdFile | safe }}
+                            {% else %}
+                            {{ slide.contentHtml | safe }}
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {{ tab.contentHtml | safe }}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section>
+        <h2 class="tab">{{ portfolio.stats.title }}</h2>
+        <div id="STATS-tab" class="tab sub-tab">
+            <div class="no-button"><span id="To-go">{{ portfolio.stats.toGoText }}</span></div>
+        </div>
+        <div id="STATS">
+            <div class="grid">
+                {% for item in portfolio.stats.items %}
+                <div id="{{ item.id }}" class="item">
+                    <div class="item-divider"></div>
+                    <div class="item-top-mask">
+                        <div class="number">{{ item.number }}</div>
+                    </div>
+                    <div class="item-btm-mask">
+                        <div class="descr">{{ item.descr }}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!--Tabs END -->

@@ -1,0 +1,2587 @@
+{
+  "header": {
+    "heroTitleHtml": "Allan's Digital Design<br/>\r\n            <span class=\"extra-large\">Portfolio</span>"
+  },
+  "works": {
+    "title": "WORKS",
+    "tabs": [
+      {
+        "id": "videos",
+        "label": "videos",
+        "defaultId": "defaultOpenWorks",
+        "items": [
+          {
+            "titleHtml": "Intros",
+            "descriptionHtml": "<b>projects:</b> Advmaker, Playvision, Advertstar, Strazhi, Castlot, PerfectFX (personal)<br>\r\n                                <time><b>years:</b> 2014-2017</time>",
+            "primary": {
+              "href": "videos-webm/intros/Advmaker_intro.webm",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "videos-intros",
+                "data-caption": "Advmaker intro, 2014",
+                "data-thumb": "images/video-thumbs/intros/Advmaker_intro_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/video-thumbs/intros/Intros_thumb.jpg 1200w, images/video-thumbs/intros/Intros_thumb_800w.jpg 800w, images/video-thumbs/intros/Intros_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Video Intros",
+                  "src": "images/video-thumbs/intros/Intros_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "videos-webm/intros/Playvision_intro.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-intros",
+                  "data-caption": "Playvision intro, 2014",
+                  "data-thumb": "images/video-thumbs/intros/Playvision_intro_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/intros/Advertstar_intro.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-intros",
+                  "data-caption": "Advertstar intro, 2014",
+                  "data-thumb": "images/video-thumbs/intros/Advertstar_intro_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/intros/Strazhi_intro.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-intros",
+                  "data-caption": "Strazhi intro, 2017",
+                  "data-thumb": "images/video-thumbs/intros/Strazhi_intro_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/intros/Castlot_intro.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-intros",
+                  "data-caption": "Castlot intro, 2014",
+                  "data-thumb": "images/video-thumbs/intros/Castlot_intro_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/intros/PerfectFX_intro.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-intros",
+                  "data-caption": "PerfectFX intro, 2015",
+                  "data-thumb": "images/video-thumbs/intros/PerfectFX_intro_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Promos",
+            "descriptionHtml": "<b>projects:</b> Castlot, Polybius ICO, Advendor, Winwin Solutions, Lady Popular, Advertstar, Hashflare<br>\r\n                                <time><b>years:</b> 2013-2020</time>",
+            "primary": {
+              "href": "videos-webm/promos/Castlot_promo.webm",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "videos-promos",
+                "data-caption": "Castlot promo, 2014",
+                "data-thumb": "images/video-thumbs/promos/Castlot_promo_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/video-thumbs/promos/Promos_thumb.jpg 1200w, images/video-thumbs/promos/Promos_thumb_800w.jpg 800w, images/video-thumbs/promos/Promos_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Video Promos",
+                  "src": "images/video-thumbs/promos/Promos_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "videos-webm/promos/Polybius_promo.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-promos",
+                  "data-caption": "Polybius promo, 2018",
+                  "data-thumb": "images/video-thumbs/promos/Polybius_promo_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/promos/Advendor_promo.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-promos",
+                  "data-caption": "Advendor promo, 2020",
+                  "data-thumb": "images/video-thumbs/promos/Advendor_promo_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/promos/Winwin_promo.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-promos",
+                  "data-caption": "Winwin Solutions promo, 2017",
+                  "data-thumb": "images/video-thumbs/promos/Winwin_promo_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/promos/LadyPopular_promo.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-promos",
+                  "data-caption": "LadyPopular promo, 2014",
+                  "data-thumb": "images/video-thumbs/promos/LadyPopular_promo_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/promos/Advertstar_promo.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-promos",
+                  "data-caption": "Advertstar promo, 2013",
+                  "data-thumb": "images/video-thumbs/promos/Advertstar_promo_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/promos/Hashflare_dash_promo.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-promos",
+                  "data-caption": "Hashflare Dash promo, 2018",
+                  "data-thumb": "images/video-thumbs/promos/Hashflare_dash_promo_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/promos/Hashflare_promo.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-promos",
+                  "data-caption": "Hashflare promo, 2017",
+                  "data-thumb": "images/video-thumbs/promos/Hashflare_promo_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Conference Displays",
+            "descriptionHtml": "<b>projects:</b> Advendor, Advertstar, Advmaker<br>\r\n                                <time><b>years:</b> 2014-2018</time>",
+            "primary": {
+              "href": "videos-webm/displays/Advendor_display.webm",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "videos-displays",
+                "data-caption": "Advendor conference display, 2018",
+                "data-thumb": "images/video-thumbs/displays/Advendor_display_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/video-thumbs/displays/Displays_thumb.jpg 1200w, images/video-thumbs/displays/Displays_thumb_800w.jpg 800w, images/video-thumbs/displays/Displays_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Video Displays",
+                  "src": "images/video-thumbs/displays/Displays_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "videos-webm/displays/Advertstar_display.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-displays",
+                  "data-caption": "Advertstar conference display, 2014",
+                  "data-thumb": "images/video-thumbs/displays/Advertstar_display_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/displays/Advmaker_display.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-displays",
+                  "data-caption": "Advmaker conference display, 2015",
+                  "data-thumb": "images/video-thumbs/displays/Advmaker_display_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/displays/Advendor_Star-Wars-afterparty_1_display.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-displays",
+                  "data-caption": "Advendor Star Wars afterparty display 1, 2018",
+                  "data-thumb": "images/video-thumbs/displays/Advendor_Star-Wars-afterparty_1_display_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/displays/Advendor_Star-Wars-afterparty_2_display.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-displays",
+                  "data-caption": "Advendor Star Wars afterparty display 2, 2018",
+                  "data-thumb": "images/video-thumbs/displays/Advendor_Star-Wars-afterparty_2_display_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Instagram ICO Ads",
+            "descriptionHtml": "<b>projects:</b> Utrust, Cryptopay, Privatix, B2BX, Hamster Marketplace (no longer exists)<br>\r\n                                <time><b>year:</b> 2017</time>",
+            "primary": {
+              "href": "videos-webm/insta/Utrust_insta.webm",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "videos-insta",
+                "data-caption": "Utrust Instagram ICO ad, 2017",
+                "data-thumb": "images/video-thumbs/insta/Utrust_insta_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/video-thumbs/insta/Insta_thumb.jpg 1200w, images/video-thumbs/insta/Insta_thumb_800w.jpg 800w, images/video-thumbs/insta/Insta_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Instagram Video Ads",
+                  "src": "images/video-thumbs/insta/Insta_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "videos-webm/insta/Cryptopay_insta.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-insta",
+                  "data-caption": "Cryptopay Instagram ICO ad, 2017",
+                  "data-thumb": "images/video-thumbs/insta/Cryptopay_insta_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/insta/Privatix_insta.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-insta",
+                  "data-caption": "Privatix Instagram ICO ad, 2017",
+                  "data-thumb": "images/video-thumbs/insta/Privatix_insta_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/insta/B2BX_insta.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-insta",
+                  "data-caption": "B2BX Instagram ICO ad, 2017",
+                  "data-thumb": "images/video-thumbs/insta/B2BX_insta_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/insta/Hamster_insta.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-insta",
+                  "data-caption": "Hamster Instagram ICO ad, 2017",
+                  "data-thumb": "images/video-thumbs/insta/Hamster_insta_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Templates",
+            "descriptionHtml": "<b>for:</b> Videohive (paid), free<br>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "videos-webm/templates/Warriors_Fury_template.webm",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "videos-templates",
+                "data-caption": "&laquo;Warrior&apos;s Fury&raquo; template, 2015",
+                "data-thumb": "images/video-thumbs/templates/Warriors_Fury_template_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/video-thumbs/templates/Templates_thumb.jpg 1200w, images/video-thumbs/templates/Templates_thumb_800w.jpg 800w, images/video-thumbs/templates/Templates_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Video Templates",
+                  "src": "images/video-thumbs/templates/Templates_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "videos-webm/templates/The_Dragons_Modular_Trailer_template.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-templates",
+                  "data-caption": "&laquo;The Dragon&apos;s Modular Trailer&raquo; template, 2015",
+                  "data-thumb": "images/video-thumbs/templates/The_Dragons_Modular_Trailer_template_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/templates/Burning_Fuse_template.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-templates",
+                  "data-caption": "&laquo;Burning Fuse Cinematic Trailer Titles&raquo; template, 2015",
+                  "data-thumb": "images/video-thumbs/templates/Burning_Fuse_template_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/templates/War_Blockbuster_template.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-templates",
+                  "data-caption": "&laquo;War Blockbuster Movie Titles&raquo; template, 2015",
+                  "data-thumb": "images/video-thumbs/templates/War_Blockbuster_template_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/templates/Horror_Glitchy_template.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-templates",
+                  "data-caption": "&laquo;Horror Glitchy Trailer Titles&raquo; template, 2015",
+                  "data-thumb": "images/video-thumbs/templates/Horror_Glitchy_template_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "videos-webm/templates/Modern_Blockbuster_template.webm",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "videos-templates",
+                  "data-caption": "&laquo;Modern Blockbuster Trailer Titles&raquo; template, 2015",
+                  "data-thumb": "images/video-thumbs/templates/Modern_Blockbuster_template_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Platform Guide",
+            "descriptionHtml": "<b>project:</b> Advendor<br>\r\n                                <time><b>year:</b> 2020</time>",
+            "primary": {
+              "href": "videos-webm/misc/Advendor_platform_video_guide.webm",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "videos-misc",
+                "data-caption": "Advendor platform video guide, 2020"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/video-thumbs/misc/Advendor_platform_video_guide_thumb.jpg 1200w, images/video-thumbs/misc/Advendor_platform_video_guide_thumb_800w.jpg 800w, images/video-thumbs/misc/Advendor_platform_video_guide_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Advendor Platform Video Guide",
+                  "src": "images/video-thumbs/misc/Advendor_platform_video_guide_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Remake Challenge",
+            "descriptionHtml": "<b>description:</b> The task was to reconstruct any 10 seconds of <a href=\"https://vimeo.com/41980725\" title=\"The vacancy original video\" target=\"_blank\" rel=\"nofollow\">this video</a> avoiding the front and the end credits.<br>\r\n                                <time><b>year:</b> 2012</time>",
+            "primary": {
+              "href": "videos-webm/misc/Where_is_the devil.webm",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "videos-misc",
+                "data-caption": "Early motion graphics practice, 2012"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/video-thumbs/misc/Where_is_the_devil_thumb.jpg 1200w, images/video-thumbs/misc/Where_is_the_devil_thumb_800w.jpg 800w, images/video-thumbs/misc/Where_is_the_devil_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Remake Challenge",
+                  "src": "images/video-thumbs/misc/Where_is_the_devil_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          }
+        ]
+      },
+      {
+        "id": "banners",
+        "label": "banners",
+        "defaultId": null,
+        "items": [
+          {
+            "titleHtml": "Advendor Promo 1",
+            "descriptionHtml": "<b>project:</b> Advendor<br>\r\n                                <span><b>for:</b> partnerkin.com</span>\r\n                                <span><b>type:</b> Animated GIF</span>\r\n                                <span><b>size:</b> 300x400</span>\r\n                                <time><b>year:</b> 2019</time>",
+            "primary": {
+              "href": "banners/gif/Partnerkin_1.gif",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "gif_banner",
+                "data-caption": "Advendor promo banner 1 for Partnerkin, 2019"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/gif/Partnerkin_1_thumb.jpg 600w, images/banner-thumbs/gif/Partnerkin_1_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Advendor Promo Banner 1 for Partnerkin",
+                  "src": "images/banner-thumbs/gif/Partnerkin_1_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Advendor Promo 2",
+            "descriptionHtml": "<b>project:</b> Advendor<br>\r\n                                <span><b>for:</b> partnerkin.com</span>\r\n                                <span><b>type:</b> Animated GIF</span>\r\n                                <span><b>size:</b> 250x250</span>\r\n                                <time><b>year:</b> 2021</time>",
+            "primary": {
+              "href": "banners/gif/Partnerkin_2.gif",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "gif_banner",
+                "data-caption": "Advendor promo banner 2 for Partnerkin, 2021"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/gif/Partnerkin_2_thumb.jpg 600w, images/banner-thumbs/gif/Partnerkin_2_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Advendor Promo Banner 2 for Partnerkin",
+                  "src": "images/banner-thumbs/gif/Partnerkin_2_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "BetBoom Offer",
+            "descriptionHtml": "<b>project:</b> BetBoom<br>\r\n                                <span><b>for:</b> Advendor partner program</span>\r\n                                <span><b>type:</b> Animated GIF</span>\r\n                                <span><b>size:</b> 240x400</span>\r\n                                <time><b>year:</b> 2022</time>",
+            "primary": {
+              "href": "banners/gif/BetBoom.gif",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "gif_banner",
+                "data-caption": "BetBoom offer banner, 2022"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/gif/BetBoom_thumb.jpg 600w, images/banner-thumbs/gif/BetBoom_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "BetBoom offer banner",
+                  "src": "images/banner-thumbs/gif/BetBoom_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "SafeZaim Offer",
+            "descriptionHtml": "<b>project:</b> SafeZaim<br>\r\n                                <span><b>for:</b> Advendor partner program</span>\r\n                                <span><b>type:</b> Animated GIF</span>\r\n                                <span><b>size:</b> 240x400</span>\r\n                                <time><b>year:</b> 2019</time>",
+            "primary": {
+              "href": "banners/gif/SafeZaim.gif",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "gif_banner",
+                "data-caption": "SafeZaim offer banner, 2019"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/gif/SafeZaim_thumb.jpg 600w, images/banner-thumbs/gif/SafeZaim_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "SafeZaim offer banner",
+                  "src": "images/banner-thumbs/gif/SafeZaim_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Diviertete Ligando Offer",
+            "descriptionHtml": "<b>project:</b> Diviertete Ligando<br>\r\n                                <span><b>for:</b> Advendor partner program</span>\r\n                                <span><b>type:</b> Animated GIF</span>\r\n                                <span><b>size:</b> 240x400</span>\r\n                                <time><b>year:</b> 2019</time>",
+            "primary": {
+              "href": "banners/gif/DivierteteLigando.gif",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "gif_banner",
+                "data-caption": "Diviertete Ligando offer banner, 2019"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/gif/DivierteteLigando_thumb.jpg 600w, images/banner-thumbs/gif/DivierteteLigando_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Diviertete Ligando offer banner",
+                  "src": "images/banner-thumbs/gif/DivierteteLigando_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Nords Offer",
+            "descriptionHtml": "<b>project:</b> Nords<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive HTML</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/html/Nords_600x200/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "600",
+                "data-height": "200",
+                "data-caption": "Nords offer html banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/Nords_thumb.jpg 600w, images/banner-thumbs/html/Nords_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Nords offer html banner",
+                  "src": "images/banner-thumbs/html/Nords_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Warface Offer",
+            "descriptionHtml": "<b>project:</b> Warface<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive HTML</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/html/Warface_600x200/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "600",
+                "data-height": "200",
+                "data-caption": "Warface offer html banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/Warface_thumb.jpg 600w, images/banner-thumbs/html/Warface_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Warface offer html banner",
+                  "src": "images/banner-thumbs/html/Warface_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Point Blank Offer",
+            "descriptionHtml": "<b>project:</b> Point Blank<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive HTML</span>\r\n                                <span><b>size:</b> 240x400</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/html/PointBlank_240x400/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "240",
+                "data-height": "400",
+                "data-caption": "Point Blank offer html banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/PointBlank_thumb.jpg 600w, images/banner-thumbs/html/PointBlank_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Point Blank offer html banner",
+                  "src": "images/banner-thumbs/html/PointBlank_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Uberi Tank Offer",
+            "descriptionHtml": "<b>project:</b> Uberi Tank<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive HTML</span>\r\n                                <span><b>size:</b> 240x400</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/html/UberiTank_240x400/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "240",
+                "data-height": "400",
+                "data-caption": "Uberi Tank offer html banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/UberiTank_thumb.jpg 600w, images/banner-thumbs/html/UberiTank_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Uberi Tank offer html banner",
+                  "src": "images/banner-thumbs/html/UberiTank_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "CryptoUniverse Offer",
+            "descriptionHtml": "<b>project:</b> CryptoUniverse<br>\r\n                                <span><b>for:</b> Advendor, Hashflare partners</span>\r\n                                <span><b>type:</b> HTML</span>\r\n                                <span><b>size:</b> 240x400</span>\r\n                                <time><b>year:</b> 2019</time>",
+            "primary": {
+              "href": "banners/html/CryptoUniverse_240x400/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "240",
+                "data-height": "400",
+                "data-caption": "CryptoUniverse html banner, 2019"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/CryptoUniverse_thumb.jpg 600w, images/banner-thumbs/html/CryptoUniverse_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "CryptoUniverse html banner",
+                  "src": "images/banner-thumbs/html/CryptoUniverse_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Hashflare Promo 1",
+            "descriptionHtml": "<b>project:</b> Hashflare<br>\r\n                                <span><b>for:</b> Advendor, Hashflare partners</span>\r\n                                <span><b>type:</b> HTML</span>\r\n                                <span><b>size:</b> 300x250</span>\r\n                                <time><b>year:</b> 2018</time>",
+            "primary": {
+              "href": "banners/html/HF_1_300x250/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "300",
+                "data-height": "250",
+                "data-caption": "Hashflare promo 1 html banner, 2018"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/HF_1_thumb.jpg 600w, images/banner-thumbs/html/HF_1_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Hashflare promo 1 html banner",
+                  "src": "images/banner-thumbs/html/HF_1_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Hashflare Promo 2",
+            "descriptionHtml": "<b>project:</b> Hashflare<br>\r\n                                <span><b>for:</b> Advendor, Hashflare partners</span>\r\n                                <span><b>type:</b> HTML</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2018</time>",
+            "primary": {
+              "href": "banners/html/HF_2_600x200/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "600",
+                "data-height": "200",
+                "data-caption": "Hashflare promo 2 html banner, 2018"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/HF_2_thumb.jpg 600w, images/banner-thumbs/html/HF_2_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Hashflare promo 2 html banner",
+                  "src": "images/banner-thumbs/html/HF_2_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Hashflare Promo 3",
+            "descriptionHtml": "<b>project:</b> Hashflare<br>\r\n                                <span><b>for:</b> Advendor, Hashflare partners</span>\r\n                                <span><b>type:</b> HTML</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2018</time>",
+            "primary": {
+              "href": "banners/html/HF_3_600x200/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "600",
+                "data-height": "200",
+                "data-caption": "Hashflare promo 3 html banner, 2018"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/HF_3_thumb.jpg 600w, images/banner-thumbs/html/HF_3_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Hashflare promo 3 html banner",
+                  "src": "images/banner-thumbs/html/HF_3_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Hashflare Promo 4",
+            "descriptionHtml": "<b>project:</b> Hashflare<br>\r\n                                <span><b>for:</b> Advendor, Hashflare partners</span>\r\n                                <span><b>type:</b> HTML</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2018</time>",
+            "primary": {
+              "href": "banners/html/HF_4_600x200/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "600",
+                "data-height": "200",
+                "data-caption": "Hashflare promo 4 html banner, 2018"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/HF_4_thumb.jpg 600w, images/banner-thumbs/html/HF_4_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Hashflare promo 4 html banner",
+                  "src": "images/banner-thumbs/html/HF_4_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "ScryptCube Promo",
+            "descriptionHtml": "<b>project:</b> ScryptCube<br>\r\n                                <span><b>for:</b> Advendor, Hashflare partners</span>\r\n                                <span><b>type:</b> HTML</span>\r\n                                <span><b>size:</b> 1280x120</span>\r\n                                <time><b>year:</b> 2021</time>",
+            "primary": {
+              "href": "banners/html/ScryptCube_1280x120/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "html_banner",
+                "data-type": "iframe",
+                "data-width": "1280",
+                "data-height": "120",
+                "data-caption": "ScryptCube promo html banner, 2021"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/html/ScryptCube_thumb.jpg 600w, images/banner-thumbs/html/ScryptCube_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "ScryptCube promo html banner",
+                  "src": "images/banner-thumbs/html/ScryptCube_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Warframe Offer",
+            "descriptionHtml": "<b>project:</b> Warframe<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/flash/Warframe_1.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Warframe flash banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/Warframe_1_thumb.jpg 600w, images/banner-thumbs/flash/Warframe_1_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Warframe flash banner",
+                  "src": "images/banner-thumbs/flash/Warframe_1_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Town Wars Offer",
+            "descriptionHtml": "<b>project:</b> Town Wars<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "banners/flash/TownWars.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Town Wars flash banner, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/TownWars_thumb.jpg 600w, images/banner-thumbs/flash/TownWars_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Town Wars flash banner",
+                  "src": "images/banner-thumbs/flash/TownWars_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Star Conflict Offer",
+            "descriptionHtml": "<b>project:</b> Star Conflict<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/flash/StarConflict.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Star Conflict flash banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/StarConflict_thumb.jpg 600w, images/banner-thumbs/flash/StarConflict_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Star Conflict flash banner",
+                  "src": "images/banner-thumbs/flash/StarConflict_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Parograd Offer",
+            "descriptionHtml": "<b>project:</b> Parograd<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash + multiclick</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "banners/flash/Parograd_1.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Parograd flash banner, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/Parograd_1_thumb.jpg 600w, images/banner-thumbs/flash/Parograd_1_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Parograd flash banner",
+                  "src": "images/banner-thumbs/flash/Parograd_1_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "One Ring Offer",
+            "descriptionHtml": "<b>project:</b> One Ring<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2014</time>",
+            "primary": {
+              "href": "banners/flash/OneRingRu.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "One Ring flash banner, 2014"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/OneRingRu_thumb.jpg 600w, images/banner-thumbs/flash/OneRingRu_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "One Ring flash banner",
+                  "src": "images/banner-thumbs/flash/OneRingRu_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "My Lands Offer",
+            "descriptionHtml": "<b>project:</b> My Lands<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "banners/flash/MyLands_2.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "My Lands flash banner, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/MyLands_demotivator2_thumb.jpg 600w, images/banner-thumbs/flash/MyLands_demotivator2_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "My Lands flash banner",
+                  "src": "images/banner-thumbs/flash/MyLands_demotivator2_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Mamba Offer",
+            "descriptionHtml": "<b>project:</b> Mamba<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Flash</span>\r\n                                <span><b>size:</b> 300x250</span>\r\n                                <time><b>year:</b> 2014</time>",
+            "primary": {
+              "href": "banners/flash/Mamba.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Mamba flash banner, 2014"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/Mamba_thumb.jpg 600w, images/banner-thumbs/flash/Mamba_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Mamba flash banner",
+                  "src": "images/banner-thumbs/flash/Mamba_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Kodeks Pirata Offer",
+            "descriptionHtml": "<b>project:</b> Kodeks Pirata<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2014</time>",
+            "primary": {
+              "href": "banners/flash/KodeksPirata.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Kodeks Pirata flash banner, 2014"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/KodeksPirata_thumb.jpg 600w, images/banner-thumbs/flash/KodeksPirata_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Kodeks Pirata flash banner",
+                  "src": "images/banner-thumbs/flash/KodeksPirata_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Duel of Champions Offer",
+            "descriptionHtml": "<b>project:</b> Duel of Champions<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2014</time>",
+            "primary": {
+              "href": "banners/flash/DuelOfChampions.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Duel of Champions flash banner, 2014"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/DuelOfChampions_thumb.jpg 600w, images/banner-thumbs/flash/DuelOfChampions_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Duel of Champions flash banner",
+                  "src": "images/banner-thumbs/flash/DuelOfChampions_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Demon Slayer Offer",
+            "descriptionHtml": "<b>project:</b> Demon Slayer<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2014</time>",
+            "primary": {
+              "href": "banners/flash/DemonSlayer_1.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Demon Slayer flash banner, 2014"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/DemonSlayer_1_thumb.jpg 600w, images/banner-thumbs/flash/DemonSlayer_1_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Demon Slayer flash banner",
+                  "src": "images/banner-thumbs/flash/DemonSlayer_1_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Crisis Game Offer",
+            "descriptionHtml": "<b>project:</b> Crisis Game<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/flash/CrisisGame.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Crisis Game flash banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/CrisisGame_thumb.jpg 600w, images/banner-thumbs/flash/CrisisGame_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Crisis Game flash banner",
+                  "src": "images/banner-thumbs/flash/CrisisGame_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Combat Arms Offer",
+            "descriptionHtml": "<b>project:</b> Combat Arms<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x200</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "banners/flash/CombatArms_1.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Combat Arms flash banner, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/CombatArms_1_thumb.jpg 600w, images/banner-thumbs/flash/CombatArms_1_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Combat Arms flash banner",
+                  "src": "images/banner-thumbs/flash/CombatArms_1_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Blades For Glory Offer",
+            "descriptionHtml": "<b>project:</b> Blades For Glory<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x300</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "banners/flash/BladesForGlory.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Blades For Glory flash banner, 2015"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/BladesForGlory_thumb.jpg 600w, images/banner-thumbs/flash/BladesForGlory_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Blades For Glory flash banner",
+                  "src": "images/banner-thumbs/flash/BladesForGlory_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Black Fire Offer",
+            "descriptionHtml": "<b>project:</b> Black Fire<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <span><b>type:</b> Interactive Flash</span>\r\n                                <span><b>size:</b> 600x400</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "banners/flash/BlackFire_1.mp4",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "flash_banner",
+                "data-caption": "Black Fire flash banner, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/banner-thumbs/flash/BlackFire_1_thumb.jpg 600w, images/banner-thumbs/flash/BlackFire_1_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Black Fire flash banner",
+                  "src": "images/banner-thumbs/flash/BlackFire_1_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          }
+        ]
+      },
+      {
+        "id": "web",
+        "label": "web",
+        "defaultId": null,
+        "items": [
+          {
+            "titleHtml": "UX/UI Redevelopment Case: Adelinx",
+            "descriptionHtml": "<b>project:</b> Adelinx<br>\r\n                                <span><b>for:</b> Adelinx platform</span>\r\n                                <time><b>years:</b> 2021-2022</time>",
+            "primary": {
+              "href": "web/sites/adelinx/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-type": "iframe",
+                "data-fancybox": "single",
+                "data-caption": "UX/UI Redevelopment Case: Adelinx, 2022"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/sites/Adelinx_thumb.jpg, images/web-thumbs/sites/Adelinx_thumb_800w.jpg 800w, images/web-thumbs/sites/Adelinx_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "UX/UI Redevelopment Case: Adelinx",
+                  "src": "images/web-thumbs/sites/Adelinx_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Advendor Redesign Concept",
+            "descriptionHtml": "<b>project:</b> Advendor<br>\r\n                                <span><b>for:</b> Advendor website</span>\r\n                                <time><b>year:</b> 2017</time>",
+            "primary": {
+              "href": "web/sites/Advendor.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "Advendor redesign concept, 2017"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/sites/Advendor_thumb.jpg, images/web-thumbs/sites/Advendor_thumb_800w.jpg 800w, images/web-thumbs/sites/Advendor_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Advendor website redesign concept",
+                  "src": "images/web-thumbs/sites/Advendor_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Polybius Main Page Concept",
+            "descriptionHtml": "<b>project:</b> Polybius<br>\r\n                                <span><b>for:</b> Polybius website</span>\r\n                                <time><b>year:</b> 2017</time>",
+            "primary": {
+              "href": "web/sites/Polybius.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "Polybius main page concept, 2017"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/sites/Polybius_thumb.jpg, images/web-thumbs/sites/Polybius_thumb_800w.jpg 800w, images/web-thumbs/sites/Polybius_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Polybius landing concept",
+                  "src": "images/web-thumbs/sites/Polybius_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Hashflare Redesign Concept",
+            "descriptionHtml": "<b>project:</b> Hashflare<br>\r\n                                <span><b>for:</b> Hashflare website</span>\r\n                                <time><b>year:</b> 2016</time>",
+            "primary": {
+              "href": "web/sites/Hashflare.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "Hashflare website redesign concept, 2016"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/sites/Hashflare_thumb.jpg, images/web-thumbs/sites/Hashflare_thumb_800w.jpg 800w, images/web-thumbs/sites/Hashflare_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Hashflare website redesign concept",
+                  "src": "images/web-thumbs/sites/Hashflare_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Panzar Pre-landing",
+            "descriptionHtml": "<b>project:</b> Panzar<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "web/landings/Panzar.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "Panzar pre-landing, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/landings/Panzar_thumb.jpg, images/web-thumbs/landings/Panzar_thumb_800w.jpg 800w, images/web-thumbs/landings/Panzar_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Panzar pre-landing",
+                  "src": "images/web-thumbs/landings/Panzar_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "7th Element Pre-landing",
+            "descriptionHtml": "<b>project:</b> 7th Element<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <time><b>year:</b> 2014</time>",
+            "primary": {
+              "href": "web/landings/7thElement.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "7th Element pre-landing, 2014"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/landings/7thElement_thumb.jpg, images/web-thumbs/landings/7thElement_thumb_800w.jpg 800w, images/web-thumbs/landings/7thElement_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "7th Element pre-landing",
+                  "src": "images/web-thumbs/landings/7thElement_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Dark Age Pre-landing",
+            "descriptionHtml": "<b>project:</b> Dark Age<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "web/landings/DarkAge.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "Dark Age pre-landing, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/landings/DarkAge_thumb.jpg, images/web-thumbs/landings/DarkAge_thumb_800w.jpg 800w, images/web-thumbs/landings/DarkAge_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "7th Element pre-landing",
+                  "src": "images/web-thumbs/landings/DarkAge_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Jail Wars Pre-landing",
+            "descriptionHtml": "<b>project:</b> Jail Wars<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "web/landings/JailWars.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "Jail Wars pre-landing, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/landings/JailWars_thumb.jpg, images/web-thumbs/landings/JailWars_thumb_800w.jpg 800w, images/web-thumbs/landings/JailWars_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "7th Element pre-landing",
+                  "src": "images/web-thumbs/landings/JailWars_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Demon Slayer Pre-landing",
+            "descriptionHtml": "<b>project:</b> Demon Slayer<br>\r\n                                <span><b>for:</b> Advmaker partner program</span>\r\n                                <time><b>year:</b> 2013</time>",
+            "primary": {
+              "href": "web/landings/DemonSlayer.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "single",
+                "data-caption": "Demon Slayer pre-landing, 2013"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/web-thumbs/landings/DemonSlayer_thumb.jpg, images/web-thumbs/landings/DemonSlayer_thumb_800w.jpg 800w, images/web-thumbs/landings/DemonSlayer_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "7th Element pre-landing",
+                  "src": "images/web-thumbs/landings/DemonSlayer_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          }
+        ]
+      },
+      {
+        "id": "social-media",
+        "label": "social",
+        "defaultId": null,
+        "items": [
+          {
+            "titleHtml": "Advendor Offers",
+            "descriptionHtml": "<b>project:</b> Advendor<br>\r\n                                <span><b>for:</b> Advendor partner program offers</span>\r\n                                <time><b>years:</b> 2018-2021</time>",
+            "primary": {
+              "href": "social-media/advendor-offers/WorldOfWarships.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "social_media_images",
+                "data-caption": "World of Warships offer preview image, 2021",
+                "data-thumb": "images/sm-thumbs/advendor-offers/WorldOfWarships_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/sm-thumbs/advendor-offers/AdvendorOffers_thumb.jpg, images/sm-thumbs/advendor-offers/AdvendorOffers_thumb_800w.jpg 800w, images/sm-thumbs/advendor-offers/AdvendorOffers_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Advendor Offers",
+                  "src": "images/sm-thumbs/advendor-offers/AdvendorOffers_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "social-media/advendor-offers/1xbet.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "1xbet offer preview image, 2021",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/1xbet_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/Neverwinter.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "Neverwinter offer preview image, 2023",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/Neverwinter_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/5dimes.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "5dimes offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/5dimes_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/AussiePlay.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "AussiePlay offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/AussiePlay_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/Betmatser.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "Betmatser offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/Betmatser_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/IronJoker.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "IronJoker offer preview image, 2022",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/IronJoker_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/JerkAndSquirt.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "JerkAndSquirt offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/JerkAndSquirt_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/Jucydate.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "Jucydate offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/Jucydate_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/KingBillyCasino.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "KingBillyCasino offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/KingBillyCasino_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/LaModa.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "LaModa offer preview image, 2018",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/LaModa_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/MagicLegends.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "MagicLegends offer preview image, 2021",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/MagicLegends_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/Strawberrynet.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "Strawberrynet offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/Strawberrynet_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/Surfshark.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "Surfshark offer preview image, 2021",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/Surfshark_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/advendor-offers/Tetrika.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images",
+                  "data-caption": "Tetrika offer preview image, 2020",
+                  "data-thumb": "images/sm-thumbs/advendor-offers/Tetrika_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Conference Printings",
+            "descriptionHtml": "<b>projects:</b> Advendor, Burfa<br>\r\n                                <span><b>for:</b> Advendor and Burfa conferences</span>\r\n                                <time><b>years:</b> 2019-2020</time>",
+            "primary": {
+              "href": "social-media/conference-printing/Stand_1.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "social_media_images_conference_printing",
+                "data-caption": "Advendor conference stand preview 1, 2019",
+                "data-thumb": "images/sm-thumbs/conference-printing/Stand_1_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/sm-thumbs/conference-printing/ConferencePrinting_thumb.jpg, images/sm-thumbs/conference-printing/ConferencePrinting_thumb_800w.jpg 800w, images/sm-thumbs/conference-printing/ConferencePrinting_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Conference Printings",
+                  "src": "images/sm-thumbs/conference-printing/ConferencePrinting_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "social-media/conference-printing/Stand_2.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_conference_printing",
+                  "data-caption": "Advendor conference stand preview 2, 2019",
+                  "data-thumb": "images/sm-thumbs/conference-printing/Stand_2_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/conference-printing/Roll-up.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_conference_printing",
+                  "data-caption": "Advendor conference roll-up preview, 2019",
+                  "data-thumb": "images/sm-thumbs/conference-printing/Roll-up_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/conference-printing/Stand_3.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_conference_printing",
+                  "data-caption": "Burfa conference stand preview (design by my colleague, 3D preview by me), 2020",
+                  "data-thumb": "images/sm-thumbs/conference-printing/Stand_3_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Events",
+            "descriptionHtml": "<b>projects:</b> Burfa, Advendor, Hashflare<br>\r\n                                <time><b>years:</b> 2019-2021</time>",
+            "primary": {
+              "href": "social-media/events/Burfa_2k20.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "social_media_images_events",
+                "data-caption": "Burfa 2k20 greeting card, 2019",
+                "data-thumb": "images/sm-thumbs/events/Burfa_2k20_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/sm-thumbs/events/Events_thumb.jpg, images/sm-thumbs/events/Events_thumb_800w.jpg 800w, images/sm-thumbs/events/Events_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Events",
+                  "src": "images/sm-thumbs/events/Events_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "social-media/events/Burfa_2k20_preview.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_events",
+                  "data-caption": "Burfa 2k20 greeting card mockup preview, 2019",
+                  "data-thumb": "images/sm-thumbs/events/Burfa_2k20_preview_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/events/Advendor_bf.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_events",
+                  "data-caption": "Advendor Black Friday 1, 2019",
+                  "data-thumb": "images/sm-thumbs/events/Advendor_bf_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/events/Advendor_bf_2.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_events",
+                  "data-caption": "Advendor Black Friday 2, 2021",
+                  "data-thumb": "images/sm-thumbs/events/Advendor_bf_2_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/events/Hashflare_halloween.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_events",
+                  "data-caption": "Hashflare Halloween mail header image, 2017",
+                  "data-thumb": "images/sm-thumbs/events/Hashflare_halloween_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/events/Advendor_hny2021.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_events",
+                  "data-caption": "Advendor Happy New year, 2020",
+                  "data-thumb": "images/sm-thumbs/events/Advendor_hny2021_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Cryptor Thumbnail Images",
+            "descriptionHtml": "<b>project:</b> Cryptor<br>\r\n                                <span><b>for:</b> Cryptor articles</span>\r\n                                <time><b>year:</b> 2020</time>",
+            "primary": {
+              "href": "social-media/cryptor-thumbnail-images/11.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "social_media_images_cryptor",
+                "data-caption": "Cryptor article thumbnail image 11, 2020",
+                "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/11_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/sm-thumbs/cryptor-thumbnail-images/CryptorThumbnailImages_thumb.jpg, images/sm-thumbs/cryptor-thumbnail-images/CryptorThumbnailImages_thumb_800w.jpg 800w, images/sm-thumbs/cryptor-thumbnail-images/CryptorThumbnailImages_thumb_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Cryptor article thumbnail images",
+                  "src": "images/sm-thumbs/cryptor-thumbnail-images/CryptorThumbnailImages_thumb.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "social-media/cryptor-thumbnail-images/7.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 7, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/7_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/3.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 3, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/3_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/4.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 4, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/4_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/5.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 5, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/5_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/6.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 6, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/6_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/2.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 2, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/2_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/8.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 8, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/8_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/9.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 9, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/9_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/10.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 10, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/10_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/1.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 1, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/1_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/12.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 12, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/12_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/13.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 13, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/13_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              },
+              {
+                "href": "social-media/cryptor-thumbnail-images/14.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "social_media_images_cryptor",
+                  "data-caption": "Cryptor article thumbnail image 14, 2020",
+                  "data-thumb": "images/sm-thumbs/cryptor-thumbnail-images/14_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "personal",
+        "label": "exercising",
+        "defaultId": null,
+        "items": [
+          {
+            "titleHtml": "How I Started Learning C# in Unity",
+            "descriptionHtml": "<b>for:</b> Unity C# practice<br>\r\n                                <time><b>year:</b> 2022</time>",
+            "primary": {
+              "href": "personal/learning-csharp/how-it-was/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-type": "iframe",
+                "data-fancybox": "single",
+                "data-caption": "How I Started Learning C# in Unity, 2022"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/learning-csharp/Learning-csharp_preview.jpg 1200w, images/personal-thumbs/learning-csharp/Learning-csharp_preview_800w.jpg 800w, images/personal-thumbs/learning-csharp/Learning-csharp_preview_600w.jpg 600w, images/personal-thumbs/learning-csharp/Learning-csharp_preview_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Learning C# in Unity",
+                  "src": "images/personal-thumbs/learning-csharp/Learning-csharp_preview.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "How I Learned Visual Scripting in Unity with Bolt",
+            "descriptionHtml": "<b>for:</b> Unity visual scripting practice<br>\r\n                                <time><b>year:</b> 2021</time>",
+            "primary": {
+              "href": "personal/learning-visual-scripting/how-it-was/index.html",
+              "attrs": {
+                "class": "lazyload",
+                "data-type": "iframe",
+                "data-fancybox": "single",
+                "data-caption": "How I Learned Visual Scripting in Unity with Bolt, 2022"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview.jpg 1200w, images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview_800w.jpg 800w, images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview_600w.jpg 600w, images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Learning Visual Scripting",
+                  "src": "images/personal-thumbs/learning-visual-scripting/Learning-visual-scripting_preview.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "&laquo;Warrior&raquo; + The Making-of",
+            "descriptionHtml": "<b>for:</b> Photoshop practice<br>\r\n                                <time><b>year:</b> 2021</time>",
+            "primary": {
+              "href": "personal/warrior/Warrior_fin.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "personal-warrior",
+                "data-caption": "&laquo;Warrior&raquo; final result, 2021",
+                "data-thumb": "images/personal-thumbs/warrior/Warrior_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/warrior/Warrior_preview.jpg 1200w, images/personal-thumbs/warrior/Warrior_preview_800w.jpg 800w, images/personal-thumbs/warrior/Warrior_preview_600w.jpg 600w, images/personal-thumbs/warrior/Warrior_preview_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Warrior final result",
+                  "src": "images/personal-thumbs/warrior/Warrior_preview.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "personal/warrior/making-of/index.html",
+                "attrs": {
+                  "class": "hidden",
+                  "data-type": "iframe",
+                  "data-fancybox": "personal-warrior",
+                  "data-caption": "The making of &laquo;Warrior&raquo;, 2021",
+                  "data-thumb": "images/personal-thumbs/warrior/Warrior_making-of_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "&laquo;Flying Torpedo&raquo; + The Making-of",
+            "descriptionHtml": "<b>for:</b> Photoshop practice<br>\r\n                                <time><b>year:</b> 2021</time>",
+            "primary": {
+              "href": "personal/flying-torpedo/Flying-torpedo_fin.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "personal-flying-torpedo",
+                "data-caption": "&laquo;Flying torpedo&raquo; final result, 2021",
+                "data-thumb": "images/personal-thumbs/flying-torpedo/Flying-torpedo_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/flying-torpedo/Flying-torpedo_preview.jpg 1200w, images/personal-thumbs/flying-torpedo/Flying-torpedo_preview_800w.jpg 800w, images/personal-thumbs/flying-torpedo/Flying-torpedo_preview_600w.jpg 600w, images/personal-thumbs/flying-torpedo/Flying-torpedo_preview_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Flying torpedo final result",
+                  "src": "images/personal-thumbs/flying-torpedo/Flying-torpedo_preview.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "personal/flying-torpedo/making-of/index.html",
+                "attrs": {
+                  "class": "hidden",
+                  "data-type": "iframe",
+                  "data-fancybox": "personal-flying-torpedo",
+                  "data-caption": "The making of &laquo;Flying torpedo&raquo;, 2021",
+                  "data-thumb": "images/personal-thumbs/flying-torpedo/Flying-torpedo_making-of_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Betsafe Test",
+            "descriptionHtml": "<b>for:</b> a vacancy of a Junior Graphical Designer at Betsafe (successful)<br>\r\n                                <time><b>year:</b> 2018</time>",
+            "primary": {
+              "href": "personal/betsafe-test/1.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "personal-betsafe-test",
+                "data-caption": "Betsafe test result 1, 2018",
+                "data-thumb": "images/personal-thumbs/betsafe-test/1_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/betsafe-test/Betsafe-test_preview.jpg 1200w, images/personal-thumbs/betsafe-test/Betsafe-test_preview_800w.jpg 800w, images/personal-thumbs/betsafe-test/Betsafe-test_preview_600w.jpg 600w, images/personal-thumbs/betsafe-test/Betsafe-test_preview_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Santoro doll final result",
+                  "src": "images/personal-thumbs/betsafe-test/Betsafe-test_preview.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "personal/betsafe-test/2.jpg",
+                "attrs": {
+                  "class": "hidden",
+                  "data-fancybox": "personal-betsafe-test",
+                  "data-caption": "Betsafe test result 2, 2018",
+                  "data-thumb": "images/personal-thumbs/betsafe-test/2_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "&laquo;Santoro Doll&raquo; + The Making-of",
+            "descriptionHtml": "<b>for:</b> Cinema 4D and Photoshop practice<br>\r\n                                <span><b>why:</b> a gift</span>\r\n                                <time><b>year:</b> 2015</time>",
+            "primary": {
+              "href": "personal/santoro-doll/Santoro-doll_fin.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "personal-santoro-doll",
+                "data-caption": "&laquo;Santoro doll&raquo; final result, 2015",
+                "data-thumb": "images/personal-thumbs/santoro-doll/Santoro-doll_thumb.jpg"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/santoro-doll/Santoro-doll_preview.jpg 1200w, images/personal-thumbs/santoro-doll/Santoro-doll_preview_800w.jpg 800w, images/personal-thumbs/santoro-doll/Santoro-doll_preview_600w.jpg 600w, images/personal-thumbs/santoro-doll/Santoro-doll_preview_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Santoro doll final result",
+                  "src": "images/personal-thumbs/santoro-doll/Santoro-doll_preview.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": [
+              {
+                "href": "personal/santoro-doll/making-of/index.html",
+                "attrs": {
+                  "class": "hidden",
+                  "data-type": "iframe",
+                  "data-fancybox": "personal-santoro-doll",
+                  "data-caption": "The making of &laquo;Santoro doll&raquo;, 2015",
+                  "data-thumb": "images/personal-thumbs/santoro-doll/Santoro-doll_making-of_thumb.jpg"
+                },
+                "img": null,
+                "innerHtml": ""
+              }
+            ]
+          },
+          {
+            "titleHtml": "Dagger",
+            "descriptionHtml": "<b>for:</b> 3D practice, incl. texturing<br>\r\n                                <time><b>year:</b> 2018</time>",
+            "primary": {
+              "href": "personal/dagger/Dagger.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "personal-dagger",
+                "data-caption": "Dagger, 2018"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/dagger/Dagger.jpg 1200w, images/personal-thumbs/dagger/Dagger_800w.jpg 800w, images/personal-thumbs/dagger/Dagger_600w.jpg 600w, images/personal-thumbs/dagger/Dagger_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Dagger 3d practice",
+                  "src": "images/personal-thumbs/dagger/Dagger.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "One Piece Chopper",
+            "descriptionHtml": "<b>for:</b> 3D practice<br>\r\n                                <span><b>why:</b> inspired by <a href=\"https://www.artstation.com/artwork/6a1ydr\" title=\"One Piece (Chopper) by Mohamed Chahin\" rel=\"nofollow\" target=\"_blank\">this dude and his work</a></span>\r\n                                <time><b>year:</b> 2018</time>",
+            "primary": {
+              "href": "personal/onepiece-chopper/OnePiece-Chopper.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "personal-chopper",
+                "data-caption": "One Piece Chopper, 2018"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/onepiece-chopper/OnePiece-Chopper.jpg 1200w, images/personal-thumbs/onepiece-chopper/OnePiece-Chopper_800w.jpg 800w, images/personal-thumbs/onepiece-chopper/OnePiece-Chopper_600w.jpg 600w, images/personal-thumbs/onepiece-chopper/OnePiece-Chopper_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "One Piece Chopper 3D practice",
+                  "src": "images/personal-thumbs/onepiece-chopper/OnePiece-Chopper.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          },
+          {
+            "titleHtml": "Sword",
+            "descriptionHtml": "<b>for:</b> 3D practice, incl. texturing<br>\r\n                                <time><b>year:</b> 2017</time>",
+            "primary": {
+              "href": "personal/sword/Sword.jpg",
+              "attrs": {
+                "class": "lazyload",
+                "data-fancybox": "personal-sword",
+                "data-caption": "Sword, 2017"
+              },
+              "img": {
+                "attrs": {
+                  "class": "lazyload",
+                  "data-srcset": "images/personal-thumbs/sword/Sword.jpg 1200w, images/personal-thumbs/sword/Sword_800w.jpg 800w, images/personal-thumbs/sword/Sword_600w.jpg 600w, images/personal-thumbs/sword/Sword_400w.jpg 400w",
+                  "data-sizes": "auto",
+                  "alt": "Dagger 3d practice",
+                  "src": "images/personal-thumbs/sword/Sword.jpg",
+                  "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                }
+              },
+              "innerHtml": null
+            },
+            "hidden": []
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "EXPERIENCE",
+    "tabs": [
+      {
+        "id": "jobs",
+        "label": "jobs",
+        "defaultId": "defaultOpenAbout",
+        "type": "jobs",
+        "nav": [
+          {
+            "targetId": "Third-Job",
+            "defaultId": "defaultOpenJobs",
+            "titleHtml": "Dec 2019 - Jan 2023",
+            "descriptionHtml": "(3 yrs 2 mo)"
+          },
+          {
+            "targetId": "Second-Job",
+            "defaultId": null,
+            "titleHtml": "Dec 2015 - Dec 2019",
+            "descriptionHtml": "(4 yrs 1 mo)"
+          },
+          {
+            "targetId": "First-Job",
+            "defaultId": null,
+            "titleHtml": "Dec 2012 - Dec 2015",
+            "descriptionHtml": "(3 yrs 1 mo)"
+          }
+        ],
+        "panels": [
+          {
+            "id": "First-Job",
+            "contentMdFile": "content/about/jobs/First-Job.md"
+          },
+          {
+            "id": "Second-Job",
+            "contentMdFile": "content/about/jobs/Second-Job.md"
+          },
+          {
+            "id": "Third-Job",
+            "contentMdFile": "content/about/jobs/Third-Job.md"
+          }
+        ]
+      },
+      {
+        "id": "apps-and-coding",
+        "label": "apps & coding",
+        "defaultId": null,
+        "type": "apps",
+        "groups": [
+          {
+            "titleHtml": "expert level",
+            "items": [
+              {
+                "nameHtml": "After Effects",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/after_effects.svg",
+                    "data-sizes": "auto",
+                    "alt": "After Effects logo",
+                    "src": "logos/after_effects.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Photoshop",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/photoshop.svg",
+                    "data-sizes": "auto",
+                    "alt": "Photoshop logo",
+                    "src": "logos/photoshop.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Figma",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/figma.svg",
+                    "data-sizes": "auto",
+                    "alt": "Figma logo",
+                    "src": "logos/figma.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Illustrator",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/illustrator.svg",
+                    "data-sizes": "auto",
+                    "alt": "Illustrator logo",
+                    "src": "logos/illustrator.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Premiere Pro",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/premiere.svg",
+                    "data-sizes": "auto",
+                    "alt": "Premiere Pro logo",
+                    "src": "logos/premiere.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "titleHtml": "high level",
+            "items": [
+              {
+                "nameHtml": "Cinema 4D",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/c4d.svg",
+                    "data-sizes": "auto",
+                    "alt": "Cinema 4D logo",
+                    "src": "logos/c4d.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Audition",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/audition.svg",
+                    "data-sizes": "auto",
+                    "alt": "Audition logo",
+                    "src": "logos/audition.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Lightroom",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/lightroom.svg",
+                    "data-sizes": "auto",
+                    "alt": "Lightroom logo",
+                    "src": "logos/lightroom.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Animate",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/animate.svg",
+                    "data-sizes": "auto",
+                    "alt": "Animate logo",
+                    "src": "logos/animate.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "KeyShot",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/keyshot.svg",
+                    "data-sizes": "auto",
+                    "alt": "KeyShot logo",
+                    "src": "logos/keyshot.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "titleHtml": "designer level",
+            "items": [
+              {
+                "nameHtml": "HTML5",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/html5.svg",
+                    "data-sizes": "auto",
+                    "alt": "HTML5 logo",
+                    "src": "logos/html5.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "CSS3",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/css3.svg",
+                    "data-sizes": "auto",
+                    "alt": "CSS3 logo",
+                    "src": "logos/css3.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Javascript",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/js.svg",
+                    "data-sizes": "auto",
+                    "alt": "Javascript logo",
+                    "src": "logos/js.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "titleHtml": "hobby level",
+            "items": [
+              {
+                "nameHtml": "Unity",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/unity.svg",
+                    "data-sizes": "auto",
+                    "alt": "Unity logo",
+                    "src": "logos/unity.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "C#",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/c_sharp.svg",
+                    "data-sizes": "auto",
+                    "alt": "C# logo",
+                    "src": "logos/c_sharp.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Visual Studio Code",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/vsc.svg",
+                    "data-sizes": "auto",
+                    "alt": "Visual Studio Code logo",
+                    "src": "logos/vsc.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Substance 3D Painter",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/substance.svg",
+                    "data-sizes": "auto",
+                    "alt": "Substance 3D Painter logo",
+                    "src": "logos/substance.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              },
+              {
+                "nameHtml": "Python",
+                "image": {
+                  "attrs": {
+                    "class": "lazyload",
+                    "data-srcset": "images/logos/python.svg",
+                    "data-sizes": "auto",
+                    "alt": "Python logo",
+                    "src": "logos/python.svg",
+                    "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "other",
+        "label": "personal",
+        "defaultId": null,
+        "type": "other",
+        "carouselId": "Carousel",
+        "slides": [
+          {
+            "titleHtml": "design aspects",
+            "contentMdFile": "content/about/slides/slide-01.md"
+          },
+          {
+            "titleHtml": "front/back-end",
+            "contentMdFile": "content/about/slides/slide-02.md"
+          },
+          {
+            "titleHtml": "communication",
+            "contentMdFile": "content/about/slides/slide-03.md"
+          },
+          {
+            "titleHtml": "deadline",
+            "contentMdFile": "content/about/slides/slide-04.md"
+          },
+          {
+            "titleHtml": "balance",
+            "contentMdFile": "content/about/slides/slide-05.md"
+          },
+          {
+            "titleHtml": "deeper & wider",
+            "contentMdFile": "content/about/slides/slide-06.md"
+          },
+          {
+            "titleHtml": "self-development",
+            "contentMdFile": "content/about/slides/slide-07.md"
+          },
+          {
+            "titleHtml": "other qualities",
+            "contentMdFile": "content/about/slides/slide-08.md"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "title": "STATS",
+    "toGoText": "click or tap 'em: 6 to go",
+    "items": [
+      {
+        "id": "Years-stats",
+        "number": "10",
+        "descr": "years"
+      },
+      {
+        "id": "Projects-stats",
+        "number": "350+",
+        "descr": "projects"
+      },
+      {
+        "id": "Videos-stats",
+        "number": "25+",
+        "descr": "videos"
+      },
+      {
+        "id": "Banners-stats",
+        "number": "2.5k+",
+        "descr": "banners"
+      },
+      {
+        "id": "Landings-stats",
+        "number": "30+",
+        "descr": "landings"
+      },
+      {
+        "id": "Sm-promos-stats",
+        "number": "400+",
+        "descr": "sm promos"
+      }
+    ]
+  }
+}

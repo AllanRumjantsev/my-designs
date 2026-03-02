@@ -1,0 +1,11 @@
+<footer>
+    <div class="top-block">
+        <p>{{ site.footer.text }}</p>
+        <div class="footer-links">
+            {% for link in site.footer.links %}
+            <a href="{{ link.href }}" target="{{ link.target }}" title="{{ link.title }}"{% if link.rel %} rel="{{ link.rel }}"{% endif %}><img class="lazyload" data-src="{{ link.icon }}" alt="{{ link.alt }}"></a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="line-block"></div>
+</footer>

@@ -27,6 +27,9 @@ node_modules/
 /dist/
 /build/
 /coverage/
+/_site/
+/.cache/
+/.11ty/
 
 # Project-specific (root-only)
 /videos/
