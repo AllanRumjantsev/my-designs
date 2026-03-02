@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Betsafe Test",
-  "descriptionHtml": "<b>for:</b> a vacancy of a Junior Graphical Designer at Betsafe (successful)<br>\n<time><b>year:</b> 2018</time>",
   "primary": {
     "href": "personal/betsafe-test/1.jpg",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,18 @@
         "data-thumb": "images/personal-thumbs/betsafe-test/2_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**for:** a vacancy of a Junior Graphical Designer at Betsafe (successful)"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2018"
+    }
+  ],
+  "title": "Betsafe Test"
 }

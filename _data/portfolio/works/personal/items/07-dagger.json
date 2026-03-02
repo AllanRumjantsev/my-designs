@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Dagger",
-  "descriptionHtml": "<b>for:</b> 3D practice, incl. texturing<br>\n<time><b>year:</b> 2018</time>",
   "primary": {
     "href": "personal/dagger/Dagger.jpg",
     "attrs": {
@@ -18,7 +16,18 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**for:** 3D practice, incl. texturing"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2018"
+    }
+  ],
+  "title": "Dagger"
 }

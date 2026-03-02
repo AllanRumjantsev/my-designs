@@ -1,6 +1,4 @@
 {
-  "titleHtml": "CryptoUniverse Offer",
-  "descriptionHtml": "<b>project:</b> CryptoUniverse<br>\n<span><b>for:</b> Advendor, Hashflare partners</span>\n<span><b>type:</b> HTML</span>\n<span><b>size:</b> 240x400</span>\n<time><b>year:</b> 2019</time>",
   "primary": {
     "href": "banners/html/CryptoUniverse_240x400/index.html",
     "attrs": {
@@ -21,7 +19,30 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** CryptoUniverse"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advendor, Hashflare partners"
+    },
+    {
+      "tag": "span",
+      "md": "**type:** HTML"
+    },
+    {
+      "tag": "span",
+      "md": "**size:** 240x400"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2019"
+    }
+  ],
+  "title": "CryptoUniverse Offer"
 }

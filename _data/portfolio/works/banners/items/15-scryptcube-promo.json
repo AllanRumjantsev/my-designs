@@ -1,6 +1,4 @@
 {
-  "titleHtml": "ScryptCube Promo",
-  "descriptionHtml": "<b>project:</b> ScryptCube<br>\n<span><b>for:</b> Advendor, Hashflare partners</span>\n<span><b>type:</b> HTML</span>\n<span><b>size:</b> 1280x120</span>\n<time><b>year:</b> 2021</time>",
   "primary": {
     "href": "banners/html/ScryptCube_1280x120/index.html",
     "attrs": {
@@ -21,7 +19,30 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** ScryptCube"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advendor, Hashflare partners"
+    },
+    {
+      "tag": "span",
+      "md": "**type:** HTML"
+    },
+    {
+      "tag": "span",
+      "md": "**size:** 1280x120"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2021"
+    }
+  ],
+  "title": "ScryptCube Promo"
 }

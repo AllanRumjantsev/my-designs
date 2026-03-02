@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Conference Displays",
-  "descriptionHtml": "<b>projects:</b> Advendor, Advertstar, Advmaker<br>\n<time><b>years:</b> 2014-2018</time>",
   "primary": {
     "href": "videos-webm/displays/Advendor_display.webm",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,7 @@
         "data-thumb": "images/video-thumbs/displays/Advertstar_display_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/displays/Advmaker_display.webm",
@@ -42,7 +40,7 @@
         "data-thumb": "images/video-thumbs/displays/Advmaker_display_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/displays/Advendor_Star-Wars-afterparty_1_display.webm",
@@ -53,7 +51,7 @@
         "data-thumb": "images/video-thumbs/displays/Advendor_Star-Wars-afterparty_1_display_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/displays/Advendor_Star-Wars-afterparty_2_display.webm",
@@ -64,7 +62,18 @@
         "data-thumb": "images/video-thumbs/displays/Advendor_Star-Wars-afterparty_2_display_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**projects:** Advendor, Advertstar, Advmaker"
+    },
+    {
+      "tag": "time",
+      "md": "**years:** 2014-2018"
+    }
+  ],
+  "title": "Conference Displays"
 }

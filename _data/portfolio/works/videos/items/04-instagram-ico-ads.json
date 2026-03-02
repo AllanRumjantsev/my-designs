@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Instagram ICO Ads",
-  "descriptionHtml": "<b>projects:</b> Utrust, Cryptopay, Privatix, B2BX, Hamster Marketplace (no longer exists)<br>\n<time><b>year:</b> 2017</time>",
   "primary": {
     "href": "videos-webm/insta/Utrust_insta.webm",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,7 @@
         "data-thumb": "images/video-thumbs/insta/Cryptopay_insta_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/insta/Privatix_insta.webm",
@@ -42,7 +40,7 @@
         "data-thumb": "images/video-thumbs/insta/Privatix_insta_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/insta/B2BX_insta.webm",
@@ -53,7 +51,7 @@
         "data-thumb": "images/video-thumbs/insta/B2BX_insta_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/insta/Hamster_insta.webm",
@@ -64,7 +62,18 @@
         "data-thumb": "images/video-thumbs/insta/Hamster_insta_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**projects:** Utrust, Cryptopay, Privatix, B2BX, Hamster Marketplace (no longer exists)"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2017"
+    }
+  ],
+  "title": "Instagram ICO Ads"
 }

@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Hashflare Promo 1",
-  "descriptionHtml": "<b>project:</b> Hashflare<br>\n<span><b>for:</b> Advendor, Hashflare partners</span>\n<span><b>type:</b> HTML</span>\n<span><b>size:</b> 300x250</span>\n<time><b>year:</b> 2018</time>",
   "primary": {
     "href": "banners/html/HF_1_300x250/index.html",
     "attrs": {
@@ -21,7 +19,30 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Hashflare"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advendor, Hashflare partners"
+    },
+    {
+      "tag": "span",
+      "md": "**type:** HTML"
+    },
+    {
+      "tag": "span",
+      "md": "**size:** 300x250"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2018"
+    }
+  ],
+  "title": "Hashflare Promo 1"
 }

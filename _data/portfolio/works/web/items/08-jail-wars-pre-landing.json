@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Jail Wars Pre-landing",
-  "descriptionHtml": "<b>project:</b> Jail Wars<br>\n<span><b>for:</b> Advmaker partner program</span>\n<time><b>year:</b> 2013</time>",
   "primary": {
     "href": "web/landings/JailWars.jpg",
     "attrs": {
@@ -18,7 +16,22 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Jail Wars"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advmaker partner program"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2013"
+    }
+  ],
+  "title": "Jail Wars Pre-landing"
 }

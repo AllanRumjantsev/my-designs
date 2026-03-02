@@ -1,6 +1,4 @@
 {
-  "titleHtml": "How I Learned Visual Scripting in Unity with Bolt",
-  "descriptionHtml": "<b>for:</b> Unity visual scripting practice<br>\n<time><b>year:</b> 2021</time>",
   "primary": {
     "href": "personal/learning-visual-scripting/how-it-was/index.html",
     "attrs": {
@@ -19,7 +17,18 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**for:** Unity visual scripting practice"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2021"
+    }
+  ],
+  "title": "How I Learned Visual Scripting in Unity with Bolt"
 }

@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Polybius Main Page Concept",
-  "descriptionHtml": "<b>project:</b> Polybius<br>\n<span><b>for:</b> Polybius website</span>\n<time><b>year:</b> 2017</time>",
   "primary": {
     "href": "web/sites/Polybius.jpg",
     "attrs": {
@@ -18,7 +16,22 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Polybius"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Polybius website"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2017"
+    }
+  ],
+  "title": "Polybius Main Page Concept"
 }

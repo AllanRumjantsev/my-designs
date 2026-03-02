@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Advendor Offers",
-  "descriptionHtml": "<b>project:</b> Advendor<br>\n<span><b>for:</b> Advendor partner program offers</span>\n<time><b>years:</b> 2018-2021</time>",
   "primary": {
     "href": "social-media/advendor-offers/WorldOfWarships.jpg",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/1xbet_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/Neverwinter.jpg",
@@ -42,7 +40,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/Neverwinter_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/5dimes.jpg",
@@ -53,7 +51,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/5dimes_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/AussiePlay.jpg",
@@ -64,7 +62,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/AussiePlay_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/Betmatser.jpg",
@@ -75,7 +73,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/Betmatser_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/IronJoker.jpg",
@@ -86,7 +84,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/IronJoker_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/JerkAndSquirt.jpg",
@@ -97,7 +95,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/JerkAndSquirt_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/Jucydate.jpg",
@@ -108,7 +106,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/Jucydate_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/KingBillyCasino.jpg",
@@ -119,7 +117,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/KingBillyCasino_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/LaModa.jpg",
@@ -130,7 +128,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/LaModa_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/MagicLegends.jpg",
@@ -141,7 +139,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/MagicLegends_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/Strawberrynet.jpg",
@@ -152,7 +150,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/Strawberrynet_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/Surfshark.jpg",
@@ -163,7 +161,7 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/Surfshark_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/advendor-offers/Tetrika.jpg",
@@ -174,7 +172,22 @@
         "data-thumb": "images/sm-thumbs/advendor-offers/Tetrika_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Advendor"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advendor partner program offers"
+    },
+    {
+      "tag": "time",
+      "md": "**years:** 2018-2021"
+    }
+  ],
+  "title": "Advendor Offers"
 }

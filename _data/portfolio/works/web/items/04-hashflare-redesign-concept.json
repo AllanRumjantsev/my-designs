@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Hashflare Redesign Concept",
-  "descriptionHtml": "<b>project:</b> Hashflare<br>\n<span><b>for:</b> Hashflare website</span>\n<time><b>year:</b> 2016</time>",
   "primary": {
     "href": "web/sites/Hashflare.jpg",
     "attrs": {
@@ -18,7 +16,22 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Hashflare"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Hashflare website"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2016"
+    }
+  ],
+  "title": "Hashflare Redesign Concept"
 }

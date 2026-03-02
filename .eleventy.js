@@ -4,15 +4,16 @@ const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
   const md = markdownIt({ html: true, linkify: true, typographer: false });
+  const mdInline = markdownIt({ html: false, linkify: true, typographer: false });
   const markdownCache = new Map();
 
   const passthroughPaths = [
     "banners",
-    "EXTERNAL PICS",
+    // "EXTERNAL PICS",
     "favicon",
     "images",
     "personal",
-    "plinko-single",
+    // "plinko-single",
     "scripts",
     "slick",
     "social-media",
@@ -47,6 +48,13 @@ module.exports = function (eleventyConfig) {
     markdownCache.set(normalizedPath, renderedHtml);
 
     return renderedHtml;
+  });
+
+  eleventyConfig.addFilter("renderMdInline", (text) => {
+    if (text === null || text === undefined) {
+      return "";
+    }
+    return mdInline.renderInline(String(text));
   });
 
   return {

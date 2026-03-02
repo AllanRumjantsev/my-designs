@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Nords Offer",
-  "descriptionHtml": "<b>project:</b> Nords<br>\n<span><b>for:</b> Advmaker partner program</span>\n<span><b>type:</b> Interactive HTML</span>\n<span><b>size:</b> 600x200</span>\n<time><b>year:</b> 2015</time>",
   "primary": {
     "href": "banners/html/Nords_600x200/index.html",
     "attrs": {
@@ -21,7 +19,30 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Nords"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advmaker partner program"
+    },
+    {
+      "tag": "span",
+      "md": "**type:** Interactive HTML"
+    },
+    {
+      "tag": "span",
+      "md": "**size:** 600x200"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2015"
+    }
+  ],
+  "title": "Nords Offer"
 }

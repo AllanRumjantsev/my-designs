@@ -1,6 +1,4 @@
 {
-  "titleHtml": "&laquo;Santoro Doll&raquo; + The Making-of",
-  "descriptionHtml": "<b>for:</b> Cinema 4D and Photoshop practice<br>\n<span><b>why:</b> a gift</span>\n<time><b>year:</b> 2015</time>",
   "primary": {
     "href": "personal/santoro-doll/Santoro-doll_fin.jpg",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -32,7 +30,22 @@
         "data-thumb": "images/personal-thumbs/santoro-doll/Santoro-doll_making-of_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**for:** Cinema 4D and Photoshop practice"
+    },
+    {
+      "tag": "span",
+      "md": "**why:** a gift"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2015"
+    }
+  ],
+  "title": "&laquo;Santoro Doll&raquo; + The Making-of"
 }

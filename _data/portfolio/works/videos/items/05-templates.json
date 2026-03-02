@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Templates",
-  "descriptionHtml": "<b>for:</b> Videohive (paid), free<br>\n<time><b>year:</b> 2015</time>",
   "primary": {
     "href": "videos-webm/templates/Warriors_Fury_template.webm",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,7 @@
         "data-thumb": "images/video-thumbs/templates/The_Dragons_Modular_Trailer_template_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/templates/Burning_Fuse_template.webm",
@@ -42,7 +40,7 @@
         "data-thumb": "images/video-thumbs/templates/Burning_Fuse_template_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/templates/War_Blockbuster_template.webm",
@@ -53,7 +51,7 @@
         "data-thumb": "images/video-thumbs/templates/War_Blockbuster_template_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/templates/Horror_Glitchy_template.webm",
@@ -64,7 +62,7 @@
         "data-thumb": "images/video-thumbs/templates/Horror_Glitchy_template_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/templates/Modern_Blockbuster_template.webm",
@@ -75,7 +73,18 @@
         "data-thumb": "images/video-thumbs/templates/Modern_Blockbuster_template_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**for:** Videohive (paid), free"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2015"
+    }
+  ],
+  "title": "Templates"
 }

@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Advendor Redesign Concept",
-  "descriptionHtml": "<b>project:</b> Advendor<br>\n<span><b>for:</b> Advendor website</span>\n<time><b>year:</b> 2017</time>",
   "primary": {
     "href": "web/sites/Advendor.jpg",
     "attrs": {
@@ -18,7 +16,22 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Advendor"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advendor website"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2017"
+    }
+  ],
+  "title": "Advendor Redesign Concept"
 }

@@ -1,6 +1,4 @@
 {
-  "titleHtml": "UX/UI Redevelopment Case: Adelinx",
-  "descriptionHtml": "<b>project:</b> Adelinx<br>\n<span><b>for:</b> Adelinx platform</span>\n<time><b>years:</b> 2021-2022</time>",
   "primary": {
     "href": "web/sites/adelinx/index.html",
     "attrs": {
@@ -19,7 +17,22 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Adelinx"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Adelinx platform"
+    },
+    {
+      "tag": "time",
+      "md": "**years:** 2021-2022"
+    }
+  ],
+  "title": "UX/UI Redevelopment Case: Adelinx"
 }

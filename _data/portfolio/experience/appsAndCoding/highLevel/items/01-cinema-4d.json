@@ -1,5 +1,4 @@
 {
-  "nameHtml": "Cinema 4D",
   "image": {
     "attrs": {
       "class": "lazyload",
@@ -9,5 +8,6 @@
       "src": "logos/c4d.svg",
       "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
     }
-  }
+  },
+  "name": "Cinema 4D"
 }

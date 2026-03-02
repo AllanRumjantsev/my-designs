@@ -1,6 +1,4 @@
 {
-  "titleHtml": "BetBoom Offer",
-  "descriptionHtml": "<b>project:</b> BetBoom<br>\n<span><b>for:</b> Advendor partner program</span>\n<span><b>type:</b> Animated GIF</span>\n<span><b>size:</b> 240x400</span>\n<time><b>year:</b> 2022</time>",
   "primary": {
     "href": "banners/gif/BetBoom.gif",
     "attrs": {
@@ -18,7 +16,30 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** BetBoom"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advendor partner program"
+    },
+    {
+      "tag": "span",
+      "md": "**type:** Animated GIF"
+    },
+    {
+      "tag": "span",
+      "md": "**size:** 240x400"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2022"
+    }
+  ],
+  "title": "BetBoom Offer"
 }

@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Advendor Promo 2",
-  "descriptionHtml": "<b>project:</b> Advendor<br>\n<span><b>for:</b> partnerkin.com</span>\n<span><b>type:</b> Animated GIF</span>\n<span><b>size:</b> 250x250</span>\n<time><b>year:</b> 2021</time>",
   "primary": {
     "href": "banners/gif/Partnerkin_2.gif",
     "attrs": {
@@ -18,7 +16,30 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Advendor"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** partnerkin.com"
+    },
+    {
+      "tag": "span",
+      "md": "**type:** Animated GIF"
+    },
+    {
+      "tag": "span",
+      "md": "**size:** 250x250"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2021"
+    }
+  ],
+  "title": "Advendor Promo 2"
 }

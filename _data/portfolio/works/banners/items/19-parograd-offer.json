@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Parograd Offer",
-  "descriptionHtml": "<b>project:</b> Parograd<br>\n<span><b>for:</b> Advmaker partner program</span>\n<span><b>type:</b> Interactive Flash + multiclick</span>\n<span><b>size:</b> 600x300</span>\n<time><b>year:</b> 2013</time>",
   "primary": {
     "href": "banners/flash/Parograd_1.mp4",
     "attrs": {
@@ -18,7 +16,30 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Parograd"
+    },
+    {
+      "tag": "span",
+      "md": "**for:** Advmaker partner program"
+    },
+    {
+      "tag": "span",
+      "md": "**type:** Interactive Flash + multiclick"
+    },
+    {
+      "tag": "span",
+      "md": "**size:** 600x300"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2013"
+    }
+  ],
+  "title": "Parograd Offer"
 }

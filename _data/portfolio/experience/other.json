@@ -2,36 +2,36 @@
   "carouselId": "Carousel",
   "slides": [
     {
-      "titleHtml": "design aspects",
-      "contentMdFile": "_data/portfolio/experience/other/design-aspects.md"
+      "contentMdFile": "_data/portfolio/experience/other/design-aspects.md",
+      "title": "design aspects"
     },
     {
-      "titleHtml": "front/back-end",
-      "contentMdFile": "_data/portfolio/experience/other/front-back-end.md"
+      "contentMdFile": "_data/portfolio/experience/other/front-back-end.md",
+      "title": "front/back-end"
     },
     {
-      "titleHtml": "communication",
-      "contentMdFile": "_data/portfolio/experience/other/communication.md"
+      "contentMdFile": "_data/portfolio/experience/other/communication.md",
+      "title": "communication"
     },
     {
-      "titleHtml": "deadline",
-      "contentMdFile": "_data/portfolio/experience/other/deadline.md"
+      "contentMdFile": "_data/portfolio/experience/other/deadline.md",
+      "title": "deadline"
     },
     {
-      "titleHtml": "balance",
-      "contentMdFile": "_data/portfolio/experience/other/balance.md"
+      "contentMdFile": "_data/portfolio/experience/other/balance.md",
+      "title": "balance"
     },
     {
-      "titleHtml": "deeper & wider",
-      "contentMdFile": "_data/portfolio/experience/other/deeper-wider.md"
+      "contentMdFile": "_data/portfolio/experience/other/deeper-wider.md",
+      "title": "deeper & wider"
     },
     {
-      "titleHtml": "self-development",
-      "contentMdFile": "_data/portfolio/experience/other/self-development.md"
+      "contentMdFile": "_data/portfolio/experience/other/self-development.md",
+      "title": "self-development"
     },
     {
-      "titleHtml": "other qualities",
-      "contentMdFile": "_data/portfolio/experience/other/other-qualities.md"
+      "contentMdFile": "_data/portfolio/experience/other/other-qualities.md",
+      "title": "other qualities"
     }
   ]
 }

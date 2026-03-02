@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Intros",
-  "descriptionHtml": "<b>projects:</b> Advmaker, Playvision, Advertstar, Strazhi, Castlot, PerfectFX (personal)<br>\n<time><b>years:</b> 2014-2017</time>",
   "primary": {
     "href": "videos-webm/intros/Advmaker_intro.webm",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,7 @@
         "data-thumb": "images/video-thumbs/intros/Playvision_intro_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/intros/Advertstar_intro.webm",
@@ -42,7 +40,7 @@
         "data-thumb": "images/video-thumbs/intros/Advertstar_intro_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/intros/Strazhi_intro.webm",
@@ -53,7 +51,7 @@
         "data-thumb": "images/video-thumbs/intros/Strazhi_intro_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/intros/Castlot_intro.webm",
@@ -64,7 +62,7 @@
         "data-thumb": "images/video-thumbs/intros/Castlot_intro_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/intros/PerfectFX_intro.webm",
@@ -75,7 +73,18 @@
         "data-thumb": "images/video-thumbs/intros/PerfectFX_intro_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**projects:** Advmaker, Playvision, Advertstar, Strazhi, Castlot, PerfectFX (personal)"
+    },
+    {
+      "tag": "time",
+      "md": "**years:** 2014-2017"
+    }
+  ],
+  "title": "Intros"
 }

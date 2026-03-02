@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Events",
-  "descriptionHtml": "<b>projects:</b> Burfa, Advendor, Hashflare<br>\n<time><b>years:</b> 2019-2021</time>",
   "primary": {
     "href": "social-media/events/Burfa_2k20.jpg",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,7 @@
         "data-thumb": "images/sm-thumbs/events/Burfa_2k20_preview_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/events/Advendor_bf.jpg",
@@ -42,7 +40,7 @@
         "data-thumb": "images/sm-thumbs/events/Advendor_bf_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/events/Advendor_bf_2.jpg",
@@ -53,7 +51,7 @@
         "data-thumb": "images/sm-thumbs/events/Advendor_bf_2_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/events/Hashflare_halloween.jpg",
@@ -64,7 +62,7 @@
         "data-thumb": "images/sm-thumbs/events/Hashflare_halloween_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "social-media/events/Advendor_hny2021.jpg",
@@ -75,7 +73,18 @@
         "data-thumb": "images/sm-thumbs/events/Advendor_hny2021_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**projects:** Burfa, Advendor, Hashflare"
+    },
+    {
+      "tag": "time",
+      "md": "**years:** 2019-2021"
+    }
+  ],
+  "title": "Events"
 }

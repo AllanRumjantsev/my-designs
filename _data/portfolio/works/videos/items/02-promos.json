@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Promos",
-  "descriptionHtml": "<b>projects:</b> Castlot, Polybius ICO, Advendor, Winwin Solutions, Lady Popular, Advertstar, Hashflare<br>\n<time><b>years:</b> 2013-2020</time>",
   "primary": {
     "href": "videos-webm/promos/Castlot_promo.webm",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -31,7 +29,7 @@
         "data-thumb": "images/video-thumbs/promos/Polybius_promo_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/promos/Advendor_promo.webm",
@@ -42,7 +40,7 @@
         "data-thumb": "images/video-thumbs/promos/Advendor_promo_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/promos/Winwin_promo.webm",
@@ -53,7 +51,7 @@
         "data-thumb": "images/video-thumbs/promos/Winwin_promo_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/promos/LadyPopular_promo.webm",
@@ -64,7 +62,7 @@
         "data-thumb": "images/video-thumbs/promos/LadyPopular_promo_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/promos/Advertstar_promo.webm",
@@ -75,7 +73,7 @@
         "data-thumb": "images/video-thumbs/promos/Advertstar_promo_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/promos/Hashflare_dash_promo.webm",
@@ -86,7 +84,7 @@
         "data-thumb": "images/video-thumbs/promos/Hashflare_dash_promo_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     },
     {
       "href": "videos-webm/promos/Hashflare_promo.webm",
@@ -97,7 +95,18 @@
         "data-thumb": "images/video-thumbs/promos/Hashflare_promo_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**projects:** Castlot, Polybius ICO, Advendor, Winwin Solutions, Lady Popular, Advertstar, Hashflare"
+    },
+    {
+      "tag": "time",
+      "md": "**years:** 2013-2020"
+    }
+  ],
+  "title": "Promos"
 }

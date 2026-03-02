@@ -1,5 +1,4 @@
 {
-  "nameHtml": "C#",
   "image": {
     "attrs": {
       "class": "lazyload",
@@ -9,5 +8,6 @@
       "src": "logos/c_sharp.svg",
       "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
     }
-  }
+  },
+  "name": "C#"
 }

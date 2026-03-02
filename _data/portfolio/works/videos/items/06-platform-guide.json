@@ -1,6 +1,4 @@
 {
-  "titleHtml": "Platform Guide",
-  "descriptionHtml": "<b>project:</b> Advendor<br>\n<time><b>year:</b> 2020</time>",
   "primary": {
     "href": "videos-webm/misc/Advendor_platform_video_guide.webm",
     "attrs": {
@@ -18,7 +16,18 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
-  "hidden": []
+  "hidden": [],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**project:** Advendor"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2020"
+    }
+  ],
+  "title": "Platform Guide"
 }

@@ -1,6 +1,4 @@
 {
-  "titleHtml": "&laquo;Flying Torpedo&raquo; + The Making-of",
-  "descriptionHtml": "<b>for:</b> Photoshop practice<br>\n<time><b>year:</b> 2021</time>",
   "primary": {
     "href": "personal/flying-torpedo/Flying-torpedo_fin.jpg",
     "attrs": {
@@ -19,7 +17,7 @@
         "srcset": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
       }
     },
-    "innerHtml": null
+    "inner": null
   },
   "hidden": [
     {
@@ -32,7 +30,18 @@
         "data-thumb": "images/personal-thumbs/flying-torpedo/Flying-torpedo_making-of_thumb.jpg"
       },
       "img": null,
-      "innerHtml": ""
+      "inner": ""
     }
-  ]
+  ],
+  "descriptionLines": [
+    {
+      "tag": "text",
+      "md": "**for:** Photoshop practice"
+    },
+    {
+      "tag": "time",
+      "md": "**year:** 2021"
+    }
+  ],
+  "title": "&laquo;Flying Torpedo&raquo; + The Making-of"
 }

@@ -8,7 +8,10 @@ permalink: /
 <header class="lazyload">
     <div class="line-block"></div>
     <div id="Hero">
-        <h1>{{ site.header.heroTitleHtml | safe }}</h1>
+        <h1>
+            {{ site.header.heroTitle | renderMdInline | safe }}
+            <span class="extra-large">{{ site.header.heroAccent | renderMdInline | safe }}</span>
+        </h1>
     </div>
     <div class="block"></div>
 </header>
@@ -36,15 +39,26 @@ permalink: /
                                 {% if item.primary.img %}
                                 <img{{ renderAttrs(item.primary.img.attrs) }}>
                                 {% else %}
-                                {{ item.primary.innerHtml | safe }}
+                                {{ item.primary.inner | safe }}
                                 {% endif %}
                             </a>
                             {% for link in item.hidden %}
-                            <a href="{{ link.href }}"{{ renderAttrs(link.attrs) }}>{{ link.innerHtml | safe }}</a>
+                            <a href="{{ link.href }}"{{ renderAttrs(link.attrs) }}>{{ link.inner | safe }}</a>
                             {% endfor %}
                         </div>
-                        <div class="title">{{ item.titleHtml | safe }}</div>
-                        <div class="descr">{{ item.descriptionHtml | safe }}</div>
+                        <div class="title">{{ item.title | renderMdInline | safe }}</div>
+                        <div class="descr">
+                            {% for line in item.descriptionLines %}
+                            {% set lineMarkup = line.md | renderMdInline %}
+                            {% if line.tag == "span" %}
+                            <span>{{ lineMarkup | safe }}</span>
+                            {% elif line.tag == "time" %}
+                            <time>{{ lineMarkup | safe }}</time>
+                            {% else %}
+                            {{ lineMarkup | safe }}
+                            {% endif %}
+                            {% endfor %}
+                        </div>
                     </div>
                     {% endfor %}
                 </div>
@@ -69,10 +83,10 @@ permalink: /
                     {% for item in experienceData.nav %}
                     <button class="aboutjobstablinks" onclick="openJobsTab(event, '{{ item.targetId }}')"{% if item.defaultId %} id="{{ item.defaultId }}"{% endif %}>
                         <div class="title">
-                            {{ item.titleHtml | safe }}
+                            {{ item.title | renderMdInline | safe }}
                         </div>
                         <div class="descr">
-                            {{ item.descriptionHtml | safe }}
+                            {{ item.description | renderMdInline | safe }}
                         </div>
                     </button>
                     {% endfor %}
@@ -82,8 +96,8 @@ permalink: /
                 <div id="{{ panel.id }}" class="jobsverttabcontent">
                     {% if panel.contentMdFile %}
                     {{ panel.contentMdFile | renderMdFile | safe }}
-                    {% else %}
-                    {{ panel.contentHtml | safe }}
+                    {% elif panel.content %}
+                    {{ panel.content | renderMdInline | safe }}
                     {% endif %}
                 </div>
                 {% endfor %}
@@ -92,7 +106,7 @@ permalink: /
                     {% for groupKey in experienceData.order %}
                     {% set groupData = experienceData[groupKey] %}
                     <div class="grid-in">
-                        <div class="title">{{ groupData.group.titleHtml | safe }}</div>
+                        <div class="title">{{ groupData.group.title | renderMdInline | safe }}</div>
                         <div class="items">
                             {% for itemKey in groupData.order %}
                             {% set item = groupData.items[itemKey] %}
@@ -100,7 +114,7 @@ permalink: /
                                 <div class="thumb">
                                     <img{{ renderAttrs(item.image.attrs) }}>
                                 </div>
-                                <div class="descr">{{ item.nameHtml | safe }}</div>
+                                <div class="descr">{{ item.name | renderMdInline | safe }}</div>
                             </div>
                             {% endfor %}
                         </div>
@@ -112,20 +126,22 @@ permalink: /
                     {% for slide in experienceData.slides %}
                     <div class="carousel-item">
                         <div class="title">
-                            {{ slide.titleHtml | safe }}
+                            {{ slide.title | renderMdInline | safe }}
                         </div>
                         <div class="descr">
                             {% if slide.contentMdFile %}
                             {{ slide.contentMdFile | renderMdFile | safe }}
-                            {% else %}
-                            {{ slide.contentHtml | safe }}
+                            {% elif slide.content %}
+                            {{ slide.content | renderMdInline | safe }}
                             {% endif %}
                         </div>
                     </div>
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ experienceData.contentHtml | safe }}
+                {% if experienceData.content %}
+                {{ experienceData.content | renderMdInline | safe }}
+                {% endif %}
                 {% endif %}
             </div>
             {% endfor %}
