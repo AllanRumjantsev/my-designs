@@ -33,3 +33,4 @@ node_modules/
 
 # Project-specific (root-only)
 /videos/
+/todo.txt
