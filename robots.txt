@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /plinko-single/
 Disallow: /slick/
 Disallow: /scripts/
+Disallow: /EXTERNAL%20PICS/
 Allow: /
 
 Sitemap: https://mydesigns.info/sitemap.xml
